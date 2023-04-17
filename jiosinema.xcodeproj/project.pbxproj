@@ -14,6 +14,10 @@
 		D398A46B29EDB78F007EBE9E /* jiosinema.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D398A46929EDB78F007EBE9E /* jiosinema.xcdatamodeld */; };
 		D398A46D29EDB791007EBE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D398A46C29EDB791007EBE9E /* Assets.xcassets */; };
 		D398A47029EDB791007EBE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D398A46E29EDB791007EBE9E /* LaunchScreen.storyboard */; };
+		D398A47829EDCBBC007EBE9E /* homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47729EDCBBC007EBE9E /* homepage.swift */; };
+		D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47929EDCCED007EBE9E /* CollectionViewCell1.swift */; };
+		D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47B29EDD19A007EBE9E /* CollectionViewCell2.swift */; };
+		D398A47E29EDD477007EBE9E /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47D29EDD477007EBE9E /* CollectionViewCell3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D398A46C29EDB791007EBE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D398A46F29EDB791007EBE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D398A47129EDB791007EBE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D398A47729EDCBBC007EBE9E /* homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homepage.swift; sourceTree = "<group>"; };
+		D398A47929EDCCED007EBE9E /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		D398A47B29EDD19A007EBE9E /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		D398A47D29EDD477007EBE9E /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D398A47D29EDD477007EBE9E /* CollectionViewCell3.swift */,
+				D398A47B29EDD19A007EBE9E /* CollectionViewCell2.swift */,
+				D398A47929EDCCED007EBE9E /* CollectionViewCell1.swift */,
+				D398A47729EDCBBC007EBE9E /* homepage.swift */,
 				D398A46C29EDB791007EBE9E /* Assets.xcassets */,
 				D398A46E29EDB791007EBE9E /* LaunchScreen.storyboard */,
 				D398A47129EDB791007EBE9E /* Info.plist */,
@@ -143,7 +155,11 @@
 			files = (
 				D398A46529EDB78F007EBE9E /* ViewController.swift in Sources */,
 				D398A46B29EDB78F007EBE9E /* jiosinema.xcdatamodeld in Sources */,
+				D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */,
+				D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */,
 				D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */,
+				D398A47829EDCBBC007EBE9E /* homepage.swift in Sources */,
+				D398A47E29EDD477007EBE9E /* CollectionViewCell3.swift in Sources */,
 				D398A46329EDB78F007EBE9E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
