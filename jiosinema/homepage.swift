@@ -8,26 +8,28 @@
 import UIKit
 
 class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
-  
-
+    
+    
     @IBOutlet weak var collectionView1: UICollectionView!
     @IBOutlet weak var collectionView2: UICollectionView!
     @IBOutlet weak var collectionView3: UICollectionView!
+    @IBOutlet weak var collectionView4: UICollectionView!
+    @IBOutlet weak var collectionView5: UICollectionView!
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
     var arrForCollectionView2 = [1,2,3,4,5,6]
-    var arrForCollectionView3 = [1,2,3,4,5,6]
-    var arrForCollectionView4 = [1,2,3,4,5,6]
-
+    var arrForCollectionView3 = ["w1","w3","w4","w5","w6","w7"]
+    var arrForCollectionView4 = ["h1","h2","h3","h4","h5","h6","h7","h8","h9"]
+    var arrForCollectionView5 = [1,2,3,4,5,6]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
     
     @IBAction func match24ActionButton(_ sender: UIButton) {
-        let naviget = storyboard?.instantiateViewController(withIdentifier: "matchActionButton") as! matchActionButton
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "matchActionButton") as! match26Page
         navigationController?.pushViewController(naviget, animated: true)
         
     }
@@ -40,12 +42,19 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView2{
             return arrForCollectionView2.count
         }
-        return arrForCollectionView3.count
+        else if collectionView == self.collectionView3 {
+            return arrForCollectionView3.count
+        }
+        else if collectionView == self.collectionView4{
+            return arrForCollectionView4.count
+        }
+        else {
+            return arrForCollectionView5.count
+
+        }
         
         
-            
-        
-        
+           
         
     }
     
@@ -55,38 +64,56 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell1.imageForCollectionView.image = UIImage(named: "\(arrForCollectionView1[indexPath.row])")
             return cell1
         }
-       else if collectionView == self.collectionView2{
-           let cell2 = collectionView2.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! CollectionViewCell2
-           cell2.imageForCollectionView2.image = UIImage(named: arrForCollectionView2[indexPath.row].description)
-           return cell2
+        else if collectionView == self.collectionView2{
+            let cell2 = collectionView2.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! CollectionViewCell2
+            cell2.imageForCollectionView2.image = UIImage(named: arrForCollectionView2[indexPath.row].description)
+            return cell2
         }
-        else {
+        else if collectionView == self.collectionView3 {
             let cell3 = collectionView3.dequeueReusableCell(withReuseIdentifier: "cell3", for: indexPath) as! CollectionViewCell3
             cell3.imageForCollectionView3.image = UIImage(named: arrForCollectionView3[indexPath.row].description)
             return cell3
-         }
-            
-            
-        
         }
+        else if collectionView == self.collectionView4{
+            let cell4 = collectionView4.dequeueReusableCell(withReuseIdentifier: "cell4", for: indexPath) as! CollectionViewCell4
+            cell4.imageForCollectionView4.image = UIImage(named: arrForCollectionView4[indexPath.row].description)
+            return cell4
+        }
+        else {
+            let cell5 = collectionView5.dequeueReusableCell(withReuseIdentifier: "cell5", for: indexPath) as! CollectionViewCell5
+            cell5.imageForCollectionView5.image = UIImage(named: arrForCollectionView5[indexPath.row].description)
+            return cell5
+        }
+        
+        
+        
+    }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if collectionView == self.collectionView1{
-       return CGSize(width: 380, height: 183)
+            return CGSize(width: 380, height: 183)
         }
-       else if collectionView == self.collectionView2{
-       return CGSize(width: 181, height: 128)
+        else if collectionView == self.collectionView2{
+            return CGSize(width: 181, height: 128)
         }
-        else{
-        return CGSize(width: 181, height: 128)
+        else if collectionView == self.collectionView3{
+            return CGSize(width: 181, height: 128)
+        }
+        else if collectionView == self.collectionView4{
+            return CGSize(width: 181, height: 128)
+        }
+        else {
+            return CGSize(width: 181, height: 128)
 
-            
         }
-    }
+        
+        
+        
     }
     
     
+    
+}
 
-    
 
 
