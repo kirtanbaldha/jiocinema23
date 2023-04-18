@@ -18,6 +18,8 @@
 		D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47929EDCCED007EBE9E /* CollectionViewCell1.swift */; };
 		D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47B29EDD19A007EBE9E /* CollectionViewCell2.swift */; };
 		D398A47E29EDD477007EBE9E /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A47D29EDD477007EBE9E /* CollectionViewCell3.swift */; };
+		D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */; };
+		D3D176BC29EE47550003DB01 /* matchActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D176BB29EE47550003DB01 /* matchActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		D398A47929EDCCED007EBE9E /* CollectionViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
 		D398A47B29EDD19A007EBE9E /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
 		D398A47D29EDD477007EBE9E /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
+		D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCellFormatch24.swift; sourceTree = "<group>"; };
+		D3D176BB29EE47550003DB01 /* matchActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,9 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */,
 				D398A47D29EDD477007EBE9E /* CollectionViewCell3.swift */,
+				D3D176BB29EE47550003DB01 /* matchActionButton.swift */,
 				D398A47B29EDD19A007EBE9E /* CollectionViewCell2.swift */,
 				D398A47929EDCCED007EBE9E /* CollectionViewCell1.swift */,
 				D398A47729EDCBBC007EBE9E /* homepage.swift */,
@@ -155,8 +161,10 @@
 			files = (
 				D398A46529EDB78F007EBE9E /* ViewController.swift in Sources */,
 				D398A46B29EDB78F007EBE9E /* jiosinema.xcdatamodeld in Sources */,
+				D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */,
 				D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */,
 				D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */,
+				D3D176BC29EE47550003DB01 /* matchActionButton.swift in Sources */,
 				D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */,
 				D398A47829EDCBBC007EBE9E /* homepage.swift in Sources */,
 				D398A47E29EDD477007EBE9E /* CollectionViewCell3.swift in Sources */,

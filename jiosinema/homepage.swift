@@ -13,7 +13,6 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView1: UICollectionView!
     @IBOutlet weak var collectionView2: UICollectionView!
     @IBOutlet weak var collectionView3: UICollectionView!
-    @IBOutlet weak var collectionView5: UICollectionView!
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
     var arrForCollectionView2 = [1,2,3,4,5,6]
@@ -26,6 +25,14 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
 
     }
     
+    
+    @IBAction func match24ActionButton(_ sender: UIButton) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "matchActionButton") as! matchActionButton
+        navigationController?.pushViewController(naviget, animated: true)
+        
+    }
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.collectionView1{
             return arrForCollectionView1.count
@@ -33,11 +40,10 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView2{
             return arrForCollectionView2.count
         }
-        else if collectionView == self.collectionView3{
-            return arrForCollectionView3.count
-        }
+        return arrForCollectionView3.count
         
-            return arrForCollectionView4.count
+        
+            
         
         
         
@@ -54,14 +60,12 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
            cell2.imageForCollectionView2.image = UIImage(named: arrForCollectionView2[indexPath.row].description)
            return cell2
         }
-        else if collectionView == self.collectionView3{
+        else {
             let cell3 = collectionView3.dequeueReusableCell(withReuseIdentifier: "cell3", for: indexPath) as! CollectionViewCell3
             cell3.imageForCollectionView3.image = UIImage(named: arrForCollectionView3[indexPath.row].description)
             return cell3
          }
-            let cell4 = collectionView4.dequeueReusableCell(withReuseIdentifier: "cell4", for: indexPath) as! colectio
-            cell4.imageForCollectionView4.image = UIImage(named: arrForCollectionView4[indexPath.row].description)
-            return cell4
+            
             
         
         }
