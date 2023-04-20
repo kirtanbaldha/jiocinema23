@@ -15,12 +15,16 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView3: UICollectionView!
     @IBOutlet weak var collectionView4: UICollectionView!
     @IBOutlet weak var collectionView5: UICollectionView!
+    @IBOutlet weak var collectionView6: UICollectionView!
+    @IBOutlet weak var collectionView7: UICollectionView!
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
     var arrForCollectionView2 = [1,2,3,4,5,6]
     var arrForCollectionView3 = ["w1","w3","w4","w5","w6","w7"]
     var arrForCollectionView4 = ["h1","h2","h3","h4","h5","h6","h7","h8","h9"]
     var arrForCollectionView5 = [1,2,3,4,5,6]
+    var arrForCollectionView6 = ["v1","v2","v3","v4","v5","v6"]
+    var arrForCollectionView7 = ["CSK","GT","HRS","KKR","LSG","PK","RR","MI"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +34,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     
     @IBAction func match24ActionButton(_ sender: UIButton) {
         let naviget = storyboard?.instantiateViewController(withIdentifier: "matchActionButton") as! match26Page
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func previweButtonAction(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "preview") as! preview
         navigationController?.pushViewController(naviget, animated: true)
         
     }
@@ -48,8 +57,14 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView4{
             return arrForCollectionView4.count
         }
-        else {
+        else if collectionView == self.collectionView5{
             return arrForCollectionView5.count
+        }
+        else if collectionView == self.collectionView6{
+            return arrForCollectionView6.count
+        }
+        else {
+            return arrForCollectionView7.count
 
         }
         
@@ -79,10 +94,21 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell4.imageForCollectionView4.image = UIImage(named: arrForCollectionView4[indexPath.row].description)
             return cell4
         }
-        else {
+        else if collectionView == self.collectionView5{
             let cell5 = collectionView5.dequeueReusableCell(withReuseIdentifier: "cell5", for: indexPath) as! CollectionViewCell5
             cell5.imageForCollectionView5.image = UIImage(named: arrForCollectionView5[indexPath.row].description)
             return cell5
+        }
+        else if collectionView == self.collectionView6{
+            let cell6 = collectionView6.dequeueReusableCell(withReuseIdentifier: "cell6", for: indexPath) as! CollectionViewCell6
+            cell6.imageForCollectionView6.image = UIImage(named: arrForCollectionView6[indexPath.row].description)
+            return cell6
+            
+        }
+        else {
+            let cell7 = collectionView7.dequeueReusableCell(withReuseIdentifier: "cell7", for: indexPath) as! CollectionViewCell7
+            cell7.imageForCollectionView7.image = UIImage(named: arrForCollectionView7[indexPath.row].description)
+            return cell7
         }
         
         
@@ -102,8 +128,17 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView4{
             return CGSize(width: 181, height: 128)
         }
-        else {
+        else if collectionView == self.collectionView5{
             return CGSize(width: 181, height: 128)
+
+        }
+        else if collectionView == self.collectionView6{
+            return CGSize(width: 181, height: 128)
+
+        }
+        else{
+            
+            return CGSize(width: 105, height: 95)
 
         }
         
