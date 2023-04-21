@@ -17,6 +17,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView5: UICollectionView!
     @IBOutlet weak var collectionView6: UICollectionView!
     @IBOutlet weak var collectionView7: UICollectionView!
+    @IBOutlet weak var collectionView8: UICollectionView!
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
     var arrForCollectionView2 = [1,2,3,4,5,6]
@@ -25,6 +26,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView5 = [1,2,3,4,5,6]
     var arrForCollectionView6 = ["v1","v2","v3","v4","v5","v6"]
     var arrForCollectionView7 = ["CSK","GT","HRS","KKR","LSG","PK","RR","MI"]
+    var arrForCollectionView8 = ["s1","s2","s3","s4","s5"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,8 +65,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView6{
             return arrForCollectionView6.count
         }
-        else {
+        else if collectionView == self.collectionView7{
             return arrForCollectionView7.count
+        }
+        else{
+            return arrForCollectionView8.count
 
         }
         
@@ -105,10 +110,15 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             return cell6
             
         }
-        else {
+        else if collectionView == self.collectionView7{
             let cell7 = collectionView7.dequeueReusableCell(withReuseIdentifier: "cell7", for: indexPath) as! CollectionViewCell7
             cell7.imageForCollectionView7.image = UIImage(named: arrForCollectionView7[indexPath.row].description)
             return cell7
+        }
+        else {
+            let cell8 = collectionView8.dequeueReusableCell(withReuseIdentifier: "cell8", for: indexPath) as! CollectionViewCell8
+            cell8.imageForCollectionView8.image = UIImage(named: arrForCollectionView8[indexPath.row].description)
+            return cell8
         }
         
         
@@ -136,9 +146,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             return CGSize(width: 181, height: 128)
 
         }
-        else{
-            
+        else if collectionView == self.collectionView7{
             return CGSize(width: 105, height: 95)
+        }
+        else {
+            return CGSize(width: 368, height: 165)
 
         }
         

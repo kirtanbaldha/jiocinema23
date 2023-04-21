@@ -20,10 +20,9 @@ class match26Page: UIViewController,UICollectionViewDelegate,UICollectionViewDat
     }
     @IBAction func backButtonAction(_ sender: UIButton) {
         
-        let naviget = storyboard?.instantiateViewController(withIdentifier: "homepage") as! homepage
-        navigationController?.pushViewController(naviget, animated: true)
+        self.navigationController?.popViewController(animated: true)
   
-        naviget.viewDidLoad()
+        
         
     }
     

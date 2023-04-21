@@ -31,7 +31,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytI-ol-CRi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4835" y="104"/>
+            <point key="canvasLocation" x="-6642" y="203"/>
         </scene>
         <!--HOME-->
         <scene sceneID="ntM-QZ-2tu">
@@ -47,7 +47,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9d-Jx-KTz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4797" y="-1560"/>
+            <point key="canvasLocation" x="-4669" y="-1544"/>
         </scene>
         <!--Homepage-->
         <scene sceneID="soB-4j-WGT">
@@ -60,8 +60,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k24-ww-3ZC">
                                 <rect key="frame" x="0.0" y="64" width="390" height="697"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="haR-5d-1gL">
-                                        <rect key="frame" x="0.0" y="20" width="390" height="2500"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haR-5d-1gL">
+                                        <rect key="frame" x="8" y="18" width="390" height="2500"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="add" translatesAutoresizingMaskIntoConstraints="NO" id="AZ9-Mx-Tkj">
                                                 <rect key="frame" x="0.0" y="0.0" width="390" height="187"/>
@@ -403,8 +403,63 @@
                                                     <outlet property="delegate" destination="Pzh-iQ-Gai" id="uMI-e0-mym"/>
                                                 </connections>
                                             </collectionView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fllow Your Teams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1P1-v8-roO">
+                                                <rect key="frame" x="8" y="1580" width="323" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTV-Pl-wJ5">
+                                                <rect key="frame" x="340" y="1584" width="35" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TATA IPL 2023 Schedule" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZe-fd-U1T">
+                                                <rect key="frame" x="10" y="1729" width="323" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pJx-K1-Uyj">
+                                                <rect key="frame" x="-9" y="1775" width="391" height="168"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YOn-2p-pJf">
+                                                    <size key="itemSize" width="376" height="160"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCell8" reuseIdentifier="cell8" id="lER-zn-f2T" customClass="CollectionViewCell8" customModule="jiosinema" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="4" width="376" height="160"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gHZ-SS-Wog">
+                                                            <rect key="frame" x="0.0" y="0.0" width="376" height="160"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="385-kH-fdB">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="390" height="165"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="376" height="160"/>
+                                                        <connections>
+                                                            <outlet property="imageForCollectionView8" destination="385-kH-fdB" id="oHM-dJ-oVY"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="Pzh-iQ-Gai" id="srn-GD-SCy"/>
+                                                    <outlet property="delegate" destination="Pzh-iQ-Gai" id="E1O-RX-gMu"/>
+                                                </connections>
+                                            </collectionView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fcr-n2-naS">
-                                                <rect key="frame" x="0.0" y="1626" width="390" height="95"/>
+                                                <rect key="frame" x="2" y="1622" width="390" height="95"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nid-xp-Lqb">
@@ -438,19 +493,17 @@
                                                     <outlet property="delegate" destination="Pzh-iQ-Gai" id="MBh-uH-iRI"/>
                                                 </connections>
                                             </collectionView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ollow Your Teams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1P1-v8-roO">
-                                                <rect key="frame" x="8" y="1580" width="323" height="38"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For Cricket Lovers: New Comedy Show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRn-bK-HsV">
+                                                <rect key="frame" x="10" y="1951" width="323" height="38"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTV-Pl-wJ5">
-                                                <rect key="frame" x="340" y="1584" width="35" height="30"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="comedy show" translatesAutoresizingMaskIntoConstraints="NO" id="ghO-cl-Efk">
+                                                <rect key="frame" x="-3" y="1997" width="378" height="117"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
-                                            </button>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -511,11 +564,12 @@
                         <outlet property="collectionView5" destination="OdU-wE-tZ5" id="pNN-UX-5nF"/>
                         <outlet property="collectionView6" destination="WHA-4U-73t" id="cCC-vT-PQp"/>
                         <outlet property="collectionView7" destination="fcr-n2-naS" id="VET-1Y-s7e"/>
+                        <outlet property="collectionView8" destination="pJx-K1-Uyj" id="qZQ-CY-DDZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AqK-yr-GVg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3863.0769230769229" y="-1560.42654028436"/>
+            <point key="canvasLocation" x="-3560" y="-1544.0758293838862"/>
         </scene>
         <!--Match26 Page-->
         <scene sceneID="ptH-NY-Mvd">
@@ -586,7 +640,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QNf-2m-u2U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3111" y="-1568"/>
+            <point key="canvasLocation" x="-2489" y="-1544"/>
         </scene>
         <!--Item-->
         <scene sceneID="CLc-nH-Qph">
@@ -603,7 +657,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gu9-x2-NEh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3691" y="1779"/>
+            <point key="canvasLocation" x="-4669" y="1890"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yq0-RU-Djz">
@@ -619,7 +673,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mGg-w9-55P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2691" y="1779"/>
+            <point key="canvasLocation" x="-3560" y="1890"/>
         </scene>
         <!--MOVIES-->
         <scene sceneID="UX1-UQ-kKi">
@@ -636,7 +690,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vQm-kc-cfX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3220" y="263"/>
+            <point key="canvasLocation" x="-4669" y="204"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ngE-AI-eQ7">
@@ -652,7 +706,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xjM-12-V5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2386" y="263"/>
+            <point key="canvasLocation" x="-3560" y="203"/>
         </scene>
         <!--TV-->
         <scene sceneID="DPe-a4-tTo">
@@ -669,7 +723,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90P-0i-Fz3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2958" y="857"/>
+            <point key="canvasLocation" x="-4669" y="1029"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rM8-Zy-UNu">
@@ -685,7 +739,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uV4-Yu-h4d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2148" y="874"/>
+            <point key="canvasLocation" x="-3560" y="1029"/>
         </scene>
         <!--TATA IPL-->
         <scene sceneID="wDp-A7-IiQ">
@@ -702,7 +756,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDc-dd-alM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3862" y="-552"/>
+            <point key="canvasLocation" x="-4669" y="-641"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EDw-6i-Hyu">
@@ -737,7 +791,6 @@
                             <constraint firstItem="gTH-Ji-2y6" firstAttribute="leading" secondItem="UI7-zt-71Y" secondAttribute="leading" id="HFj-99-xg7"/>
                             <constraint firstItem="gTH-Ji-2y6" firstAttribute="trailing" secondItem="UI7-zt-71Y" secondAttribute="trailing" id="M9K-9G-NEs"/>
                             <constraint firstItem="gTH-Ji-2y6" firstAttribute="bottom" secondItem="UI7-zt-71Y" secondAttribute="bottom" id="TG1-8x-iiq"/>
-                            <constraint firstItem="1pw-pV-0RS" firstAttribute="height" secondItem="Jho-4h-XYY" secondAttribute="height" multiplier="2.96209" id="d92-M6-RAI"/>
                             <constraint firstItem="gTH-Ji-2y6" firstAttribute="top" secondItem="UI7-zt-71Y" secondAttribute="top" id="geD-lZ-Zxj"/>
                             <constraint firstItem="1pw-pV-0RS" firstAttribute="width" secondItem="Jho-4h-XYY" secondAttribute="width" id="iS6-Tl-9V7"/>
                         </constraints>
@@ -746,7 +799,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAm-6k-38S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2958.4615384615386" y="-551.65876777251185"/>
+            <point key="canvasLocation" x="-3560" y="-641"/>
         </scene>
         <!--Preview-->
         <scene sceneID="5JR-Xl-LEk">
@@ -817,13 +870,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m9G-Ke-rLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2346" y="-1560"/>
+            <point key="canvasLocation" x="-1491" y="-1544"/>
         </scene>
     </scenes>
     <resources>
         <image name="Ad" width="300" height="300"/>
         <image name="Dream11-40" width="60" height="60"/>
         <image name="add" width="1302" height="431"/>
+        <image name="comedy show" width="1495" height="316"/>
         <image name="cricket-bat.empty" width="24" height="24"/>
         <image name="cricket-bat.fill" width="24" height="24"/>
         <image name="download-removebg-preview (1)-20.png 00-35-41-681" width="20" height="20"/>

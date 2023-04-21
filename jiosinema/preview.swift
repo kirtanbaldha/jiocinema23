@@ -19,10 +19,8 @@ class preview: UIViewController,UICollectionViewDelegate,UICollectionViewDataSou
     }
     @IBAction func backButtonAction(_ sender: UIButton) {
         
-        let naviget = storyboard?.instantiateViewController(withIdentifier: "homepage") as! homepage
-        navigationController?.pushViewController(naviget, animated: true)
-  
-        naviget.viewDidLoad()
+        
+        self.navigationController?.popViewController(animated: true)
         
     }
     
