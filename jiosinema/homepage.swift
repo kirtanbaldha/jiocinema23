@@ -18,6 +18,8 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView6: UICollectionView!
     @IBOutlet weak var collectionView7: UICollectionView!
     @IBOutlet weak var collectionView8: UICollectionView!
+    @IBOutlet weak var collectionView9: UICollectionView!
+    
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
     var arrForCollectionView2 = [1,2,3,4,5,6]
@@ -27,11 +29,12 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView6 = ["v1","v2","v3","v4","v5","v6"]
     var arrForCollectionView7 = ["CSK","GT","HRS","KKR","LSG","PK","RR","MI"]
     var arrForCollectionView8 = ["s1","s2","s3","s4","s5"]
-    
+    var arrForCollectionView9 = ["movie1","movie2","movie4","movie5","movie6","movie7"]
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
+  
     
     
     @IBAction func match24ActionButton(_ sender: UIButton) {
@@ -43,6 +46,15 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         let naviget = storyboard?.instantiateViewController(withIdentifier: "preview") as! preview
         navigationController?.pushViewController(naviget, animated: true)
         
+    }
+    @IBAction func highlights(_ sender: UIButton) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "highlightsPage") as! highlightsPage
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    @IBAction func bestTataIpl2023
+    (_ sender: UIButton) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "bestOfTataIpl") as! bestOfTataIpl
+        navigationController?.pushViewController(naviget, animated: true)
     }
     
     
@@ -68,8 +80,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView7{
             return arrForCollectionView7.count
         }
-        else{
+        else  if collectionView == self.collectionView8{
             return arrForCollectionView8.count
+        }
+        else{
+            return arrForCollectionView9.count
 
         }
         
@@ -115,10 +130,15 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell7.imageForCollectionView7.image = UIImage(named: arrForCollectionView7[indexPath.row].description)
             return cell7
         }
-        else {
+        else if collectionView == self.collectionView8{
             let cell8 = collectionView8.dequeueReusableCell(withReuseIdentifier: "cell8", for: indexPath) as! CollectionViewCell8
             cell8.imageForCollectionView8.image = UIImage(named: arrForCollectionView8[indexPath.row].description)
             return cell8
+        }
+        else {
+            let cell9 = collectionView9.dequeueReusableCell(withReuseIdentifier: "cell9", for: indexPath) as! CollectionViewCell9
+            cell9.imageForCollectionView9.image = UIImage(named: arrForCollectionView9[indexPath.row].description)
+            return cell9
         }
         
         
@@ -149,8 +169,12 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView7{
             return CGSize(width: 105, height: 95)
         }
-        else {
+        else if collectionView == self.collectionView8{
             return CGSize(width: 368, height: 165)
+        }
+        else {
+            let cvsize = collectionView9.frame.width
+            return CGSize(width:(cvsize-8.3)/2, height: 216)
 
         }
         
@@ -158,7 +182,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         
     }
     
-    
+  
     
 }
 
