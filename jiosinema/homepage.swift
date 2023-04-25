@@ -19,6 +19,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView7: UICollectionView!
     @IBOutlet weak var collectionView8: UICollectionView!
     @IBOutlet weak var collectionView9: UICollectionView!
+    @IBOutlet weak var collectionView10: UICollectionView!
     
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
@@ -27,9 +28,14 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView4 = ["h1","h2","h3","h4","h5","h6","h7","h8","h9"]
     var arrForCollectionView5 = [1,2,3,4,5,6]
     var arrForCollectionView6 = ["v1","v2","v3","v4","v5","v6"]
-    var arrForCollectionView7 = ["CSK","GT","HRS","KKR","LSG","PK","RR","MI"]
+    var arrForCollectionView7 = ["CSK","GT","HRS","KKR","LSG","PK","RR","MI","RCB","DC"]
     var arrForCollectionView8 = ["s1","s2","s3","s4","s5"]
     var arrForCollectionView9 = ["movie1","movie2","movie4","movie5","movie6","movie7"]
+    var arrForCollectionView10 = [1,2]
+    
+    
+    
+    var arrayForColore = [UIColor.yellow,UIColor.systemYellow,UIColor.orange,UIColor.purple,UIColor.cyan,UIColor.red,UIColor.systemPurple,UIColor.blue,UIColor.systemRed,UIColor.systemBlue]
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -58,6 +64,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     }
     
     
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView == self.collectionView1{
             return arrForCollectionView1.count
@@ -83,8 +90,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else  if collectionView == self.collectionView8{
             return arrForCollectionView8.count
         }
-        else{
+        else if collectionView == self.collectionView9{
             return arrForCollectionView9.count
+        }
+        else {
+            return arrForCollectionView10.count
 
         }
         
@@ -128,19 +138,26 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView7{
             let cell7 = collectionView7.dequeueReusableCell(withReuseIdentifier: "cell7", for: indexPath) as! CollectionViewCell7
             cell7.imageForCollectionView7.image = UIImage(named: arrForCollectionView7[indexPath.row].description)
+            cell7.labelForTeamBcColore.backgroundColor = arrayForColore[indexPath.row]
             return cell7
         }
         else if collectionView == self.collectionView8{
             let cell8 = collectionView8.dequeueReusableCell(withReuseIdentifier: "cell8", for: indexPath) as! CollectionViewCell8
             cell8.imageForCollectionView8.image = UIImage(named: arrForCollectionView8[indexPath.row].description)
+            
             return cell8
         }
-        else {
+        else if collectionView == self.collectionView9{
             let cell9 = collectionView9.dequeueReusableCell(withReuseIdentifier: "cell9", for: indexPath) as! CollectionViewCell9
             cell9.imageForCollectionView9.image = UIImage(named: arrForCollectionView9[indexPath.row].description)
             return cell9
         }
-        
+        else {
+            let cell10 = collectionView10.dequeueReusableCell(withReuseIdentifier: "cell10", for: indexPath) as! CollectionViewCell10
+            cell10.imageForCollectionView10.image = UIImage(named: arrForCollectionView10[indexPath.row].description)
+            return cell10
+            
+        }
         
         
     }
@@ -173,9 +190,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             return CGSize(width: 368, height: 165)
         }
         else {
-            let cvsize = collectionView9.frame.width
-            return CGSize(width:(cvsize-8.3)/2, height: 216)
-
+            return CGSize(width: 180, height: 220)
         }
         
         

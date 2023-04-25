@@ -10,4 +10,7 @@ import UIKit
 class CollectionViewCell7: UICollectionViewCell {
     
     @IBOutlet weak var imageForCollectionView7: UIImageView!
+    @IBOutlet weak var labelForTeamBcColore: UILabel!
+    
+    
 }
