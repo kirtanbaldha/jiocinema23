@@ -14,7 +14,8 @@ class freshtvepisodes: UIViewController {
 
     }
     
-
+    @IBOutlet weak var freshtvepisodeimg: UIImageView!
+    
    
 
 }

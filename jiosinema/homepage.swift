@@ -1,9 +1,4 @@
-//
-//  homepage.swift
-//  jiosinema
-//
-//  Created by R & W on 18/04/23.
-//
+
 
 import UIKit
 
@@ -31,7 +26,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView7 = ["CSK","GT","HRS","KKR","LSG","PK","RR","MI","RCB","DC"]
     var arrForCollectionView8 = ["s1","s2","s3","s4","s5"]
     var arrForCollectionView9 = ["movie1","movie2","movie4","movie5","movie6","movie7"]
-    var arrForCollectionView10 = [1,2]
+    var arrForCollectionView10 = ["agnishakshi", "Bekaaboo","dharam patni", "durga aur charu", "Housefull", "Junooniyatt", "Naagin", "Parineetii","raaz mahal","tere ishq mein ghayal", "Udaariyaan"]
     
     
     
@@ -63,6 +58,26 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         navigationController?.pushViewController(naviget, animated: true)
     }
     
+    @IBAction func allLogo(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "allLogo") as! allLogo
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func schedule(_ sender: Any) {
+        
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "schedule") as! schedule
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func FreshTvEp(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "freshTvEp") as! freshTvEp
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+ 
+    
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -87,7 +102,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView7{
             return arrForCollectionView7.count
         }
-        else  if collectionView == self.collectionView8{
+        else if collectionView == self.collectionView8{
             return arrForCollectionView8.count
         }
         else if collectionView == self.collectionView9{
@@ -97,6 +112,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             return arrForCollectionView10.count
 
         }
+        
         
         
            
@@ -156,9 +172,10 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             let cell10 = collectionView10.dequeueReusableCell(withReuseIdentifier: "cell10", for: indexPath) as! CollectionViewCell10
             cell10.imageForCollectionView10.image = UIImage(named: arrForCollectionView10[indexPath.row].description)
             return cell10
-            
         }
         
+        
+      
         
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -189,8 +206,12 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView8{
             return CGSize(width: 368, height: 165)
         }
-        else {
+        else if collectionView == self.collectionView8{
             return CGSize(width: 180, height: 220)
+        }
+        else {
+            return CGSize(width: 127, height: 167)
+
         }
         
         
