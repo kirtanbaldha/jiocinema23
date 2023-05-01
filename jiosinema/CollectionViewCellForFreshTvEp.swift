@@ -9,7 +9,9 @@ import UIKit
 
 class CollectionViewCellForFreshTvEp: UICollectionViewCell {
     
+ 
     @IBOutlet weak var imgForFreshTvep: UIImageView!
+    
     
     
 }

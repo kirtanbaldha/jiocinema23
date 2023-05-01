@@ -653,8 +653,9 @@
                                     <constraint firstItem="haR-5d-1gL" firstAttribute="leading" secondItem="k24-ww-3ZC" secondAttribute="leading" id="gEr-ua-ALP"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jiosinema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uh2-np-9RG">
-                                <rect key="frame" x="78" y="37" width="101" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jiosinema" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uh2-np-9RG">
+                                <rect key="frame" x="73" y="37" width="101" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -673,11 +674,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="download-removebg-preview (1)-20.png 00-35-41-681" translatesAutoresizingMaskIntoConstraints="NO" id="uEc-y8-F1c">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-removebg-preview (1)-20.png 00-35-41-681" translatesAutoresizingMaskIntoConstraints="NO" id="uEc-y8-F1c">
                                 <rect key="frame" x="16" y="34" width="46" height="39"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="JEM-fv-eBw"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9rk-TK-o8c"/>
@@ -685,14 +684,8 @@
                         <constraints>
                             <constraint firstItem="9rk-TK-o8c" firstAttribute="trailing" secondItem="1Ne-3G-URs" secondAttribute="trailing" constant="22" id="H1v-as-KBt"/>
                             <constraint firstItem="k24-ww-3ZC" firstAttribute="leading" secondItem="9rk-TK-o8c" secondAttribute="leading" id="MGu-6t-mdn"/>
-                            <constraint firstItem="uEc-y8-F1c" firstAttribute="top" secondItem="vD9-Nl-czo" secondAttribute="topMargin" constant="-10" id="NYL-ZB-dqa"/>
-                            <constraint firstItem="k24-ww-3ZC" firstAttribute="top" secondItem="uEc-y8-F1c" secondAttribute="bottom" constant="5" id="ReB-Z0-48g"/>
-                            <constraint firstItem="Uh2-np-9RG" firstAttribute="leading" secondItem="uEc-y8-F1c" secondAttribute="trailing" constant="16" id="SR8-rU-Oww"/>
-                            <constraint firstItem="uEc-y8-F1c" firstAttribute="centerY" secondItem="1Ne-3G-URs" secondAttribute="centerY" id="UPc-ur-PF6"/>
                             <constraint firstItem="k24-ww-3ZC" firstAttribute="bottom" secondItem="9rk-TK-o8c" secondAttribute="bottom" id="XzV-ub-tm8"/>
-                            <constraint firstItem="uEc-y8-F1c" firstAttribute="leading" secondItem="vD9-Nl-czo" secondAttribute="leadingMargin" id="cti-eh-Rws"/>
                             <constraint firstItem="k24-ww-3ZC" firstAttribute="top" secondItem="9rk-TK-o8c" secondAttribute="top" constant="20" id="dOT-TV-3i8"/>
-                            <constraint firstItem="uEc-y8-F1c" firstAttribute="centerY" secondItem="Uh2-np-9RG" secondAttribute="centerY" id="i9N-4u-QPR"/>
                             <constraint firstItem="k24-ww-3ZC" firstAttribute="top" secondItem="1Ne-3G-URs" secondAttribute="bottom" constant="7" id="mBw-PQ-Mil"/>
                             <constraint firstAttribute="trailing" secondItem="k24-ww-3ZC" secondAttribute="trailing" id="p7V-iW-KTQ"/>
                         </constraints>
@@ -1296,14 +1289,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fresh TV Episodes📺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wte-7k-IOZ">
-                                <rect key="frame" x="61" y="44" width="297" height="38"/>
+                                <rect key="frame" x="51" y="44" width="297" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ME3-a6-Ngx">
-                                <rect key="frame" x="16" y="48" width="35" height="30"/>
+                                <rect key="frame" x="10" y="48" width="35" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="left-arrow"/>
@@ -1341,7 +1334,7 @@
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="120" height="167"/>
                                         <connections>
-                                            <outlet property="imgForFreshTvep" destination="dyh-Qu-O7y" id="hCV-PR-GGb"/>
+                                            <outlet property="imgForFreshTvep" destination="FOk-H8-T8Q" id="uxR-u8-Wpy"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

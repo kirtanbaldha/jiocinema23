@@ -11,7 +11,7 @@ class freshTvEp: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
    
     @IBOutlet weak var collectionViewForFreshTvEp: UICollectionView!
     
-    var arrForFreshTvEp = [1,2]
+    var arrForFreshTvEp = ["agnishakshi", "Bekaaboo","dharam patni", "durga aur charu", "Housefull", "Junooniyatt", "Naagin", "Parineetii","raaz mahal","tere ishq mein ghayal", "Udaariyaan"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
