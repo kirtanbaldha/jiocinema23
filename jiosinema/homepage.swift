@@ -15,6 +15,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView8: UICollectionView!
     @IBOutlet weak var collectionView9: UICollectionView!
     @IBOutlet weak var collectionView10: UICollectionView!
+    @IBOutlet weak var collectionView11: UICollectionView!
     
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
@@ -27,7 +28,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView8 = ["s1","s2","s3","s4","s5"]
     var arrForCollectionView9 = ["movie1","movie2","movie4","movie5","movie6","movie7"]
     var arrForCollectionView10 = ["agnishakshi", "Bekaaboo","dharam patni", "durga aur charu", "Housefull", "Junooniyatt", "Naagin", "Parineetii","raaz mahal","tere ishq mein ghayal", "Udaariyaan"]
-    
+    var arrForCollectionView11 = ["ad1","ad2","ad3"]
     
     
     var arrayForColore = [UIColor.yellow,UIColor.systemYellow,UIColor.orange,UIColor.purple,UIColor.cyan,UIColor.red,UIColor.systemPurple,UIColor.blue,UIColor.systemRed,UIColor.systemBlue]
@@ -108,10 +109,13 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView9{
             return arrForCollectionView9.count
         }
-        else {
+        else if collectionView == self.collectionView10{
             return arrForCollectionView10.count
-
         }
+        else {
+            return arrForCollectionView11.count
+        }
+        
         
         
         
@@ -168,10 +172,15 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell9.imageForCollectionView9.image = UIImage(named: arrForCollectionView9[indexPath.row].description)
             return cell9
         }
-        else {
+        else if collectionView == self.collectionView10{
             let cell10 = collectionView10.dequeueReusableCell(withReuseIdentifier: "cell10", for: indexPath) as! CollectionViewCell10
             cell10.imageForCollectionView10.image = UIImage(named: arrForCollectionView10[indexPath.row].description)
             return cell10
+        }
+        else {
+            let cell11 = collectionView11.dequeueReusableCell(withReuseIdentifier: "cell11", for: indexPath) as! CollectionViewCell11
+            cell11.imageForCollectionView11.image = UIImage(named: arrForCollectionView11[indexPath.row].description)
+            return cell11
         }
         
         

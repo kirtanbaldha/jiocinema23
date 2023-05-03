@@ -14,6 +14,7 @@
 		D376971929EE14AF00A1C89F /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376971829EE14AF00A1C89F /* CollectionViewCell4.swift */; };
 		D376971F29EE2F1A00A1C89F /* CollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376971E29EE2F1A00A1C89F /* CollectionViewCell5.swift */; };
 		D376972129EE35BD00A1C89F /* CollectionViewCellForMatch26.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376972029EE35BC00A1C89F /* CollectionViewCellForMatch26.swift */; };
+		D37918F21EB7117500491449 /* CollectionViewCell11.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37918F11EB7117500491449 /* CollectionViewCell11.swift */; };
 		D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A46029EDB78F007EBE9E /* AppDelegate.swift */; };
 		D398A46329EDB78F007EBE9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A46229EDB78F007EBE9E /* SceneDelegate.swift */; };
 		D398A46529EDB78F007EBE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D398A46429EDB78F007EBE9E /* ViewController.swift */; };
@@ -49,6 +50,7 @@
 		D376971829EE14AF00A1C89F /* CollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
 		D376971E29EE2F1A00A1C89F /* CollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5.swift; sourceTree = "<group>"; };
 		D376972029EE35BC00A1C89F /* CollectionViewCellForMatch26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMatch26.swift; sourceTree = "<group>"; };
+		D37918F11EB7117500491449 /* CollectionViewCell11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell11.swift; sourceTree = "<group>"; };
 		D398A45D29EDB78F007EBE9E /* jiosinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiosinema.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D398A46029EDB78F007EBE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D398A46229EDB78F007EBE9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D37918F11EB7117500491449 /* CollectionViewCell11.swift */,
 				D3EB575129FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift */,
 				D3EB574F29FAF5B5006499EC /* freshTvEp.swift */,
 				D3EB574D29FAEF0C006499EC /* schedule.swift */,
@@ -237,6 +240,7 @@
 				D35E6F9729F137300047AB48 /* preview.swift in Sources */,
 				D3AE4C8D29F112D300077406 /* CollectionViewCell6.swift in Sources */,
 				D3B131F04B72193200772BC0 /* CollectionViewCellForBestIpl.swift in Sources */,
+				D37918F21EB7117500491449 /* CollectionViewCell11.swift in Sources */,
 				D3EB574E29FAEF0C006499EC /* schedule.swift in Sources */,
 				D3EB575029FAF5B5006499EC /* freshTvEp.swift in Sources */,
 				D3B292D629F94FE100F8AEE2 /* allLogo.swift in Sources */,

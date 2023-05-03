@@ -574,12 +574,6 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kO9-ZU-2Yp">
-                                                <rect key="frame" x="340" y="2200" width="35" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
-                                            </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="FpN-fK-ZEM">
                                                 <rect key="frame" x="-3" y="2503" width="385" height="167"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -638,6 +632,48 @@
                                                     <action selector="FreshTvEp:" destination="Pzh-iQ-Gai" eventType="touchUpInside" id="G4G-Uv-qNh"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ads You Watched" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWD-vH-lUC">
+                                                <rect key="frame" x="10" y="2678" width="323" height="38"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="VUq-03-Dgh">
+                                                <rect key="frame" x="-3" y="2724" width="385" height="118"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LlD-WD-zrp">
+                                                    <size key="itemSize" width="157" height="117"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForAds" reuseIdentifier="cell11" id="26a-Jh-3zh" customClass="CollectionViewCell11" customModule="jiosinema" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="157" height="117"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qmY-68-5ub">
+                                                            <rect key="frame" x="0.0" y="0.0" width="157" height="117"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZOy-nN-CJo">
+                                                                    <rect key="frame" x="0.0" y="-6" width="157" height="128"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="157" height="117"/>
+                                                        <connections>
+                                                            <outlet property="imageForCollectionView11" destination="ZOy-nN-CJo" id="ZWi-3t-ZGw"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="Pzh-iQ-Gai" id="1XD-96-9Kv"/>
+                                                    <outlet property="delegate" destination="Pzh-iQ-Gai" id="eIH-zy-tjd"/>
+                                                </connections>
+                                            </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -694,6 +730,7 @@
                     <connections>
                         <outlet property="collectionView1" destination="UCf-lJ-Ifb" id="4pB-Ll-Ssy"/>
                         <outlet property="collectionView10" destination="FpN-fK-ZEM" id="bTn-Cw-goW"/>
+                        <outlet property="collectionView11" destination="VUq-03-Dgh" id="hVu-Yj-THA"/>
                         <outlet property="collectionView2" destination="c9D-kI-vKg" id="I4E-Ff-mYS"/>
                         <outlet property="collectionView3" destination="yNo-iL-Ju7" id="vvQ-ln-u4C"/>
                         <outlet property="collectionView4" destination="QG1-Hg-QMt" id="O0P-5p-JrH"/>
