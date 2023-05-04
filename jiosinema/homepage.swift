@@ -16,6 +16,8 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView9: UICollectionView!
     @IBOutlet weak var collectionView10: UICollectionView!
     @IBOutlet weak var collectionView11: UICollectionView!
+    @IBOutlet weak var collectionView12: UICollectionView!
+    
     
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
@@ -29,6 +31,9 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView9 = ["movie1","movie2","movie4","movie5","movie6","movie7"]
     var arrForCollectionView10 = ["agnishakshi", "Bekaaboo","dharam patni", "durga aur charu", "Housefull", "Junooniyatt", "Naagin", "Parineetii","raaz mahal","tere ishq mein ghayal", "Udaariyaan"]
     var arrForCollectionView11 = ["ad1","ad2","ad3"]
+    
+    var arrForCollectionView12 = ["7 kadam","bose","broken but beautiiful","cybervaa","flesh","haq se","home  its a feeling","rise","the test case","untouchables","yo ke hua bro"]
+    
     
     
     var arrayForColore = [UIColor.yellow,UIColor.systemYellow,UIColor.orange,UIColor.purple,UIColor.cyan,UIColor.red,UIColor.systemPurple,UIColor.blue,UIColor.systemRed,UIColor.systemBlue]
@@ -76,6 +81,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         navigationController?.pushViewController(naviget, animated: true)
     }
     
+    @IBAction func populerWebShows(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Popular_Web_Shows") as! Popular_Web_Shows
+        navigationController?.pushViewController(naviget, animated: true)
+        
+    }
     
  
     
@@ -112,8 +122,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView10{
             return arrForCollectionView10.count
         }
-        else {
+        else if collectionView == self.collectionView11{
             return arrForCollectionView11.count
+        }
+        else {
+            return arrForCollectionView12.count
         }
         
         
@@ -177,10 +190,15 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell10.imageForCollectionView10.image = UIImage(named: arrForCollectionView10[indexPath.row].description)
             return cell10
         }
-        else {
+        else if collectionView == self.collectionView11{
             let cell11 = collectionView11.dequeueReusableCell(withReuseIdentifier: "cell11", for: indexPath) as! CollectionViewCell11
             cell11.imageForCollectionView11.image = UIImage(named: arrForCollectionView11[indexPath.row].description)
             return cell11
+        }
+        else {
+            let cell12 = collectionView12.dequeueReusableCell(withReuseIdentifier: "cell12", for: indexPath) as! CollectionViewCell12
+            cell12.imageForCollectionView12.image = UIImage(named: arrForCollectionView12[indexPath.row].description)
+            return cell12
         }
         
         
@@ -218,10 +236,24 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView8{
             return CGSize(width: 180, height: 220)
         }
-        else {
+        else if collectionView == self.collectionView9{
             return CGSize(width: 127, height: 167)
-
         }
+        else if collectionView == self.collectionView10{
+            return CGSize(width: 127, height: 167)
+        }
+        else if collectionView == self.collectionView10{
+            return CGSize(width: 157, height: 128)
+        }
+        else if collectionView == self.collectionView11{
+            return CGSize(width: 127, height: 167)
+        }
+        else {
+            return CGSize(width: 176, height: 216)
+        }
+        
+        
+        
         
         
         
