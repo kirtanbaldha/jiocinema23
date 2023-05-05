@@ -17,7 +17,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var collectionView10: UICollectionView!
     @IBOutlet weak var collectionView11: UICollectionView!
     @IBOutlet weak var collectionView12: UICollectionView!
-    
+    @IBOutlet weak var collectionView13: UICollectionView!
+    @IBOutlet weak var collectionView14: UICollectionView!
+    @IBOutlet weak var collectionView15: UICollectionView!
+    @IBOutlet weak var collectionView16: UICollectionView!
+    @IBOutlet weak var collectionView17: UICollectionView!
     
     
     var arrForCollectionView1 = [1,2,3,4,5,6]
@@ -33,7 +37,11 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     var arrForCollectionView11 = ["ad1","ad2","ad3"]
     
     var arrForCollectionView12 = ["7 kadam","bose","broken but beautiiful","cybervaa","flesh","haq se","home  its a feeling","rise","the test case","untouchables","yo ke hua bro"]
-    
+    var arrForCollectionView13 = ["bombay talkies","drishyam jc creatives","Fakt Mahilao Maate", "kochadaiiyaan","lootera","Made In China","manmarziyaan","robert","shubh mangal savdhan","stree"]
+    var arrForCollectionView14 = ["1 of something","bride of the century","drowning city","El Caso","Extraordinary You","flower of evil","goblin","i m not a robot","kairos","kill me heal me","la teteniente","melting heart","prison playbook","save me","the game towards zero","traicion","two cops","undercover"]
+    var arrForCollectionView15 = ["Dharohar Bharat Ki Punarutthaan Ki Kahani","Dharohar Bharat Ki Punarutthaan Ki Kahani bhag 2"]
+    var arrForCollectionView16 = ["IMDB1","IMDB2","IMDB3","IMDB4","IMDB5","IMDB6","IMDB7","IMDB8","IMDB9","IMDB10",]
+    var arrForCollectionView17 = ["athletics","badminton","bsaketball","cricket","rider","squash","tennis","football"]
     
     
     var arrayForColore = [UIColor.yellow,UIColor.systemYellow,UIColor.orange,UIColor.purple,UIColor.cyan,UIColor.red,UIColor.systemPurple,UIColor.blue,UIColor.systemRed,UIColor.systemBlue]
@@ -125,8 +133,23 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView11{
             return arrForCollectionView11.count
         }
-        else {
+        else if collectionView == self.collectionView12{
             return arrForCollectionView12.count
+        }
+        else if collectionView == self.collectionView13{
+            return arrForCollectionView13.count
+        }
+        else if collectionView == self.collectionView14{
+            return arrForCollectionView14.count
+        }
+        else if collectionView == self.collectionView15{
+            return arrForCollectionView15.count
+        }
+        else if collectionView == self.collectionView16{
+            return arrForCollectionView16.count
+        }
+        else {
+            return arrForCollectionView17.count
         }
         
         
@@ -195,10 +218,35 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
             cell11.imageForCollectionView11.image = UIImage(named: arrForCollectionView11[indexPath.row].description)
             return cell11
         }
-        else {
+        else if collectionView == self.collectionView12{
             let cell12 = collectionView12.dequeueReusableCell(withReuseIdentifier: "cell12", for: indexPath) as! CollectionViewCell12
             cell12.imageForCollectionView12.image = UIImage(named: arrForCollectionView12[indexPath.row].description)
             return cell12
+        }
+        else if collectionView == self.collectionView13{
+            let cell13 = collectionView13.dequeueReusableCell(withReuseIdentifier: "cell13", for: indexPath) as! CollectionViewCell13
+            cell13.imageForCollectionView13.image = UIImage(named: arrForCollectionView13[indexPath.row].description)
+            return cell13
+        }
+        else if collectionView == self.collectionView14{
+            let cell14 = collectionView14.dequeueReusableCell(withReuseIdentifier: "cell14", for: indexPath) as! CollectionViewCell14
+            cell14.imageForCollectionView14.image = UIImage(named: arrForCollectionView14[indexPath.row].description)
+            return cell14
+        }
+        else if collectionView == self.collectionView15{
+            let cell15 = collectionView15.dequeueReusableCell(withReuseIdentifier: "cell15", for: indexPath) as! CollectionViewCell15
+            cell15.imageForCollectionView15.image = UIImage(named: arrForCollectionView15[indexPath.row].description)
+            return cell15
+        }
+        else if collectionView == self.collectionView16{
+            let cell16 = collectionView16.dequeueReusableCell(withReuseIdentifier: "cell16", for: indexPath) as! CollectionViewCell16
+            cell16.imageForCollectionView16.image = UIImage(named: arrForCollectionView16[indexPath.row].description)
+            return cell16
+        }
+        else {
+            let cell17 = collectionView17.dequeueReusableCell(withReuseIdentifier: "cell17", for: indexPath) as! CollectionViewCell17
+            cell17.imageForCollectionView17.image = UIImage(named: arrForCollectionView17[indexPath.row].description)
+            return cell17
         }
         
         
@@ -248,8 +296,23 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         else if collectionView == self.collectionView11{
             return CGSize(width: 127, height: 167)
         }
-        else {
+        else if collectionView == self.collectionView12{
             return CGSize(width: 176, height: 216)
+        }
+        else if collectionView == self.collectionView13{
+            return CGSize(width: 115, height: 150)
+        }
+        else if collectionView == self.collectionView14{
+            return CGSize(width: 115, height: 150)
+        }
+        else if collectionView == self.collectionView15{
+            return CGSize(width: 180, height: 120)
+        }
+        else if collectionView == self.collectionView16{
+            return CGSize(width: 115, height: 150)
+        }
+        else {
+            return CGSize(width: 80, height: 80)
         }
         
         
