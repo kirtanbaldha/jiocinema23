@@ -96,6 +96,16 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     }
     
  
+    @IBAction func GlobalHitsinHindi(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "globalHitsInHindi") as! globalHitsInHindi
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func PopularSports(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "PopularSports") as! PopularSports
+        navigationController?.pushViewController(naviget, animated: true)
+
+    }
     
     
     

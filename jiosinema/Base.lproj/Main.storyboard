@@ -778,6 +778,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
+                                                <connections>
+                                                    <action selector="GlobalHitsinHindi:" destination="Pzh-iQ-Gai" eventType="touchUpInside" id="HpK-5t-hOP"/>
+                                                </connections>
                                             </button>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JSQ-tw-qQs">
                                                 <rect key="frame" x="-3" y="3371" width="385" height="151"/>
@@ -948,6 +951,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
+                                                <connections>
+                                                    <action selector="PopularSports:" destination="Pzh-iQ-Gai" eventType="touchUpInside" id="OI1-d2-sQJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1748,6 +1754,160 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jdc-LO-OEA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2187.6923076923076" y="-1544.0758293838862"/>
+        </scene>
+        <!--Global Hits In Hindi-->
+        <scene sceneID="eak-rj-SGU">
+            <objects>
+                <viewController storyboardIdentifier="globalHitsInHindi" id="hlr-Rb-Wc0" customClass="globalHitsInHindi" customModule="jiosinema" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cGE-Vg-kWn">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global Hits in Hindi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZ0-Yb-veE">
+                                <rect key="frame" x="63" y="44" width="297" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ne-XX-ELx">
+                                <rect key="frame" x="0.0" y="48" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="left-arrow"/>
+                                <connections>
+                                    <action selector="back:" destination="AyT-br-8dW" eventType="touchUpInside" id="5Cf-5t-2SM"/>
+                                    <action selector="back:" destination="hlr-Rb-Wc0" eventType="touchUpInside" id="q81-Lp-2v3"/>
+                                    <action selector="backButtonAction:" destination="h8h-E2-deF" eventType="touchUpInside" id="PLn-Oz-IFd"/>
+                                    <action selector="backButtonAction:" destination="h7f-lN-J1A" eventType="touchUpInside" id="Ypx-rW-r8v"/>
+                                    <action selector="backButtonAction:" destination="Uad-yX-jTz" eventType="touchUpInside" id="tEP-iO-gyP"/>
+                                    <action selector="backButtonAction:" destination="Mdk-4j-TLZ" eventType="touchUpInside" id="yrD-58-XqV"/>
+                                    <action selector="backButtonActionForFreshTvEp:" destination="hZ6-Xy-HLc" eventType="touchUpInside" id="bL4-gl-Z1K"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bwX-Au-OrY">
+                                <rect key="frame" x="0.0" y="90" width="390" height="720"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dzs-jz-nh5">
+                                    <size key="itemSize" width="120" height="160"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="global_Hits_In_Hindi" reuseIdentifier="cell" id="8IM-Yi-VLd" customClass="CollectionViewCellGlobal_Hits_In_Hindi" customModule="jiosinema" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="140"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="nxU-TX-7t3">
+                                            <rect key="frame" x="0.0" y="0.0" width="120" height="140"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="48w-Ww-c60">
+                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="140"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="120" height="140"/>
+                                        <connections>
+                                            <outlet property="imgForGlobalHitsInHindi" destination="48w-Ww-c60" id="WwR-dU-AAe"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="hlr-Rb-Wc0" id="wst-2Q-IQl"/>
+                                    <outlet property="delegate" destination="hlr-Rb-Wc0" id="Xjk-rN-PCs"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XUZ-KS-41z"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionViewForGlobalHitsInHindi" destination="bwX-Au-OrY" id="Ac1-do-GEg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2cf-2n-5ua" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2873.8461538461538" y="-1544.0758293838862"/>
+        </scene>
+        <!--Popular Sports-->
+        <scene sceneID="zSh-b5-ZDn">
+            <objects>
+                <viewController storyboardIdentifier="PopularSports" id="sPV-FR-OWv" customClass="PopularSports" customModule="jiosinema" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XkK-3K-1oJ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Global Hits in Hindi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkK-cc-of9">
+                                <rect key="frame" x="93" y="44" width="297" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whr-EH-5Vi">
+                                <rect key="frame" x="16" y="48" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="left-arrow"/>
+                                <connections>
+                                    <action selector="back:" destination="hlr-Rb-Wc0" eventType="touchUpInside" id="WW4-nr-Crk"/>
+                                    <action selector="back:" destination="AyT-br-8dW" eventType="touchUpInside" id="fns-4e-6eX"/>
+                                    <action selector="backButtonAction:" destination="Uad-yX-jTz" eventType="touchUpInside" id="EbR-AL-FU1"/>
+                                    <action selector="backButtonAction:" destination="h8h-E2-deF" eventType="touchUpInside" id="L7L-t7-PTA"/>
+                                    <action selector="backButtonAction:" destination="Mdk-4j-TLZ" eventType="touchUpInside" id="aOW-Vo-Pnl"/>
+                                    <action selector="backButtonAction:" destination="h7f-lN-J1A" eventType="touchUpInside" id="wBX-Zf-nfy"/>
+                                    <action selector="backButtonActionForFreshTvEp:" destination="hZ6-Xy-HLc" eventType="touchUpInside" id="gSa-ld-7T2"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fCf-2y-gSP">
+                                <rect key="frame" x="0.0" y="90" width="390" height="720"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="awa-A8-j34">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForPopulerSports" reuseIdentifier="cell" id="aFm-dg-MDy" customClass="CollectionViewCellForPopulerSports" customModule="jiosinema" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="v6Z-cB-kOi">
+                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TP9-sk-Gc2">
+                                                    <rect key="frame" x="0.0" y="8" width="90" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="90" height="90"/>
+                                        <connections>
+                                            <outlet property="imgForPopulerSports" destination="TP9-sk-Gc2" id="sPK-d2-4FC"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="sPV-FR-OWv" id="erQ-UV-9EI"/>
+                                    <outlet property="delegate" destination="sPV-FR-OWv" id="IE9-Kp-4Rc"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vz6-Bq-XW4"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionViewForPopulerSports" destination="fCf-2y-gSP" id="WwI-Xc-NZK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OwJ-Zp-TVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3621.5384615384614" y="-1544.0758293838862"/>
         </scene>
     </scenes>
     <resources>

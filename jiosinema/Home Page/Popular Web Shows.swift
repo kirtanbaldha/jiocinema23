@@ -1,10 +1,3 @@
-//
-//  Popular Web Shows.swift
-//  jiosinema
-//
-//  Created by R & W on 04/05/23.
-//
-
 import UIKit
 
 class Popular_Web_Shows: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
