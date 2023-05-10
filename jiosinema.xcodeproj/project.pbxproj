@@ -40,6 +40,9 @@
 		D3AE4C8D29F112D300077406 /* CollectionViewCell6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE4C8C29F112D300077406 /* CollectionViewCell6.swift */; };
 		D3AE4C8F29F11F4C00077406 /* CollectionViewCell7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE4C8E29F11F4C00077406 /* CollectionViewCell7.swift */; };
 		D3AFA0142A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AFA0132A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift */; };
+		D3B11C362A09E98600B56F0D /* TataiplHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B11C352A09E98600B56F0D /* TataiplHomePage.swift */; };
+		D3B11C3A2A09FA3200B56F0D /* CollectionViewCell1IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B11C392A09FA3200B56F0D /* CollectionViewCell1IplPage1.swift */; };
+		D3B11C3C2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B11C3B2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift */; };
 		D3B131E84B7208E300772BC0 /* highlightsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131E74B7208E300772BC0 /* highlightsPage.swift */; };
 		D3B131EA4B720A0800772BC0 /* CollectionViewCellForHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131E94B720A0800772BC0 /* CollectionViewCellForHighlights.swift */; };
 		D3B131EC4B720FE700772BC0 /* bestOfTataIpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131EB4B720FE700772BC0 /* bestOfTataIpl.swift */; };
@@ -47,6 +50,11 @@
 		D3B131F24B7222C000772BC0 /* CollectionViewCell9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131F14B7222C000772BC0 /* CollectionViewCell9.swift */; };
 		D3B292D629F94FE100F8AEE2 /* allLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D529F94FE100F8AEE2 /* allLogo.swift */; };
 		D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */; };
+		D3B2D2612D095FB900B76757 /* CollectionViewCell3IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */; };
+		D3B2D2632D09654B00B76757 /* CollectionViewCell4IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D2622D09654B00B76757 /* CollectionViewCell4IplPage1.swift */; };
+		D3C3571E2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3571D2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift */; };
+		D3C357202A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3571F2A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift */; };
+		D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */; };
 		D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */; };
 		D3D176BC29EE47550003DB01 /* match26Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D176BB29EE47550003DB01 /* match26Page.swift */; };
 		D3EB574E29FAEF0C006499EC /* schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB574D29FAEF0C006499EC /* schedule.swift */; };
@@ -90,6 +98,9 @@
 		D3AE4C8C29F112D300077406 /* CollectionViewCell6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell6.swift; sourceTree = "<group>"; };
 		D3AE4C8E29F11F4C00077406 /* CollectionViewCell7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell7.swift; sourceTree = "<group>"; };
 		D3AFA0132A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForPopulerWebShows.swift; sourceTree = "<group>"; };
+		D3B11C352A09E98600B56F0D /* TataiplHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TataiplHomePage.swift; sourceTree = "<group>"; };
+		D3B11C392A09FA3200B56F0D /* CollectionViewCell1IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1IplPage1.swift; sourceTree = "<group>"; };
+		D3B11C3B2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2IplPage1.swift; sourceTree = "<group>"; };
 		D3B131E74B7208E300772BC0 /* highlightsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = highlightsPage.swift; sourceTree = "<group>"; };
 		D3B131E94B720A0800772BC0 /* CollectionViewCellForHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForHighlights.swift; sourceTree = "<group>"; };
 		D3B131EB4B720FE700772BC0 /* bestOfTataIpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestOfTataIpl.swift; sourceTree = "<group>"; };
@@ -97,6 +108,11 @@
 		D3B131F14B7222C000772BC0 /* CollectionViewCell9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell9.swift; sourceTree = "<group>"; };
 		D3B292D529F94FE100F8AEE2 /* allLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allLogo.swift; sourceTree = "<group>"; };
 		D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewForallLogo.swift; sourceTree = "<group>"; };
+		D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3IplPage1.swift; sourceTree = "<group>"; };
+		D3B2D2622D09654B00B76757 /* CollectionViewCell4IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4IplPage1.swift; sourceTree = "<group>"; };
+		D3C3571D2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5IplPage1.swift; sourceTree = "<group>"; };
+		D3C3571F2A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell6IplPage1.swift; sourceTree = "<group>"; };
+		D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell7IplPage1.swift; sourceTree = "<group>"; };
 		D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCellFormatch24.swift; sourceTree = "<group>"; };
 		D3D176BB29EE47550003DB01 /* match26Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = match26Page.swift; sourceTree = "<group>"; };
 		D3EB574D29FAEF0C006499EC /* schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
@@ -183,6 +199,7 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D3B11C342A09E91C00B56F0D /* TATA IPL */,
 				D34036F01EC01FF3003F0A89 /* Home Page */,
 				D398A46C29EDB791007EBE9E /* Assets.xcassets */,
 				D398A46E29EDB791007EBE9E /* LaunchScreen.storyboard */,
@@ -190,6 +207,21 @@
 				D398A46929EDB78F007EBE9E /* jiosinema.xcdatamodeld */,
 			);
 			path = jiosinema;
+			sourceTree = "<group>";
+		};
+		D3B11C342A09E91C00B56F0D /* TATA IPL */ = {
+			isa = PBXGroup;
+			children = (
+				D3B11C352A09E98600B56F0D /* TataiplHomePage.swift */,
+				D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */,
+				D3B11C392A09FA3200B56F0D /* CollectionViewCell1IplPage1.swift */,
+				D3C3571F2A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift */,
+				D3C3571D2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift */,
+				D3B2D2622D09654B00B76757 /* CollectionViewCell4IplPage1.swift */,
+				D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */,
+				D3B11C3B2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift */,
+			);
+			path = "TATA IPL";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D377E26A431942B300C59AF3 /* CollectionViewCell13.swift in Sources */,
+				D3C3571E2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift in Sources */,
 				D3AFA0142A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift in Sources */,
 				D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */,
 				D398A46529EDB78F007EBE9E /* ViewController.swift in Sources */,
@@ -271,16 +304,19 @@
 				D3B131E84B7208E300772BC0 /* highlightsPage.swift in Sources */,
 				D3AE4C8F29F11F4C00077406 /* CollectionViewCell7.swift in Sources */,
 				D398A46B29EDB78F007EBE9E /* jiosinema.xcdatamodeld in Sources */,
+				D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */,
 				D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */,
 				D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */,
 				D37A01B82A03822200146397 /* Popular Web Shows.swift in Sources */,
 				D35FA0B92A04DEE20061F020 /* CollectionViewCell14.swift in Sources */,
 				D3024EDD29F257820044DE89 /* CollectionViewCell8.swift in Sources */,
 				D376972129EE35BD00A1C89F /* CollectionViewCellForMatch26.swift in Sources */,
+				D3B11C3A2A09FA3200B56F0D /* CollectionViewCell1IplPage1.swift in Sources */,
 				D35E6F9929F1376E0047AB48 /* CollectionViewCellForPreview.swift in Sources */,
 				D3B131EC4B720FE700772BC0 /* bestOfTataIpl.swift in Sources */,
 				D3B131F24B7222C000772BC0 /* CollectionViewCell9.swift in Sources */,
 				D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */,
+				D3B11C3C2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift in Sources */,
 				D376971929EE14AF00A1C89F /* CollectionViewCell4.swift in Sources */,
 				D3EB575229FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift in Sources */,
 				D3D176BC29EE47550003DB01 /* match26Page.swift in Sources */,
@@ -290,11 +326,15 @@
 				D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */,
 				D35FA0BF2A04F2890061F020 /* CollectionViewCell17.swift in Sources */,
 				D34036EB1EC00DF9003F0A89 /* global Hits In Hindi.swift in Sources */,
+				D3B2D2612D095FB900B76757 /* CollectionViewCell3IplPage1.swift in Sources */,
+				D3C357202A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift in Sources */,
 				D35E6F9729F137300047AB48 /* preview.swift in Sources */,
 				D3AE4C8D29F112D300077406 /* CollectionViewCell6.swift in Sources */,
+				D3B11C362A09E98600B56F0D /* TataiplHomePage.swift in Sources */,
 				D3B131F04B72193200772BC0 /* CollectionViewCellForBestIpl.swift in Sources */,
 				D34036E91EC00C81003F0A89 /* globalHitsInHindi.swift in Sources */,
 				D35FA0BD2A04EB5D0061F020 /* CollectionViewCell16.swift in Sources */,
+				D3B2D2632D09654B00B76757 /* CollectionViewCell4IplPage1.swift in Sources */,
 				D37918F21EB7117500491449 /* CollectionViewCell11.swift in Sources */,
 				D3EB574E29FAEF0C006499EC /* schedule.swift in Sources */,
 				D3EB575029FAF5B5006499EC /* freshTvEp.swift in Sources */,
