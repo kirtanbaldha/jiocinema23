@@ -27,7 +27,7 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
     @IBOutlet weak var collectionView14IplPage1: UICollectionView!
     @IBOutlet weak var collectionView15IplPage1: UICollectionView!
     @IBOutlet weak var collectionView16IplPage1: UICollectionView!
-    
+    @IBOutlet weak var collectionView17IplPage1: UICollectionView!
     
     
     
@@ -53,7 +53,7 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
     var arrForCollectionView14IPl1 = ["exclusivesGT1","exclusivesGT2","exclusivesGT3"]
     var arrForCollectionView15IPl1 = ["bestOfInsiders1","bestOfInsiders2","bestOfInsiders3","bestOfInsiders4","bestOfInsiders5","bestOfInsiders6","bestOfInsiders7","bestOfInsiders8"]
     var arrForCollectionView16IPl1 = ["bestOfInsiders1","bestOfInsiders2","bestOfInsiders3","bestOfInsiders4","bestOfInsiders5","bestOfInsiders6","bestOfInsiders7","bestOfInsiders8","bestOfInsiders9","bestOfInsiders10",]
-    
+    var arrForCollectionView17IPl1 = [1,2]
     
     
     
@@ -114,8 +114,12 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
                 return arrForCollectionView15IPl1.count
 
             }
-            else {
+            else if collectionView == self.collectionView16IplPage1{
                 return arrForCollectionView16IPl1.count
+
+            }
+            else {
+                return arrForCollectionView17IPl1.count
 
             }
     }
@@ -200,6 +204,12 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
             return cellIpl15
 
         }
+        else if collectionView == self.collectionView16IplPage1{
+            let cellIpl16 = collectionView16IplPage1.dequeueReusableCell(withReuseIdentifier: "cellIpl16", for: indexPath) as! CollectionViewCell16IplPage1
+            cellIpl16.imgForCollectionView16IplPage1.image = UIImage(named: "\(arrForCollectionView16IPl1[indexPath.row])")
+            return cellIpl16
+
+        }
         else {
             let cellIpl16 = collectionView16IplPage1.dequeueReusableCell(withReuseIdentifier: "cellIpl16", for: indexPath) as! CollectionViewCell16IplPage1
             cellIpl16.imgForCollectionView16IplPage1.image = UIImage(named: "\(arrForCollectionView16IPl1[indexPath.row])")
@@ -246,9 +256,22 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
         else if collectionView == self.collectionView12IplPage1{
             return CGSize(width: 105, height: 95)
         }
+        else if collectionView == self.collectionView13IplPage1{
+            return CGSize(width: 168, height: 113)
+        }
+        else if collectionView == self.collectionView14IplPage1{
+            return CGSize(width: 168, height: 113)
+        }
+        else if collectionView == self.collectionView15IplPage1{
+            return CGSize(width: 168, height: 113)
+        }
+        else if collectionView == self.collectionView16IplPage1{
+            return CGSize(width: 168, height: 113)
+        }
         else {
             return CGSize(width: 168, height: 113)
         }
+        
         
     }
     

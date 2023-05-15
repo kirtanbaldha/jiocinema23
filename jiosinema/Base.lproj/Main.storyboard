@@ -2215,6 +2215,57 @@
                                                     <action selector="previweButtonAction:" destination="Pzh-iQ-Gai" eventType="touchUpInside" id="BjI-E0-Nid"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tata ipl 2023 top Moments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vb-M6-ISZ">
+                                                <rect key="frame" x="9" y="3587" width="215" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kql-Zg-mgd">
+                                                <rect key="frame" x="347" y="3582" width="35" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
+                                                <connections>
+                                                    <action selector="previweButtonAction:" destination="Pzh-iQ-Gai" eventType="touchUpInside" id="sS3-gC-K7R"/>
+                                                </connections>
+                                            </button>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YRT-Ph-t2R">
+                                                <rect key="frame" x="0.0" y="3616" width="392" height="115"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5p9-W4-ols">
+                                                    <size key="itemSize" width="128" height="128"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCell17IplPage1" reuseIdentifier="cellIpl17" id="8QZ-1c-LCw" customClass="CollectionViewCell17IplPage1" customModule="jiosinema" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="168" height="113"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="LjQ-rL-TqB">
+                                                            <rect key="frame" x="0.0" y="0.0" width="168" height="113"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpx-Mk-XXK">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="168" height="113"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="168" height="113"/>
+                                                        <connections>
+                                                            <outlet property="imgForCollectionView17IplPage1" destination="vpx-Mk-XXK" id="nJd-Si-ilW"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="SIA-99-d9l" id="YvB-cH-TWr"/>
+                                                    <outlet property="delegate" destination="SIA-99-d9l" id="VBb-Zh-xfl"/>
+                                                </connections>
+                                            </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" name="AccentColor"/>
@@ -2250,6 +2301,7 @@
                         <outlet property="collectionView14IplPage1" destination="EDN-pC-fbJ" id="zFf-vD-3Pt"/>
                         <outlet property="collectionView15IplPage1" destination="Nbx-8e-pnz" id="SMp-C4-R26"/>
                         <outlet property="collectionView16IplPage1" destination="kb5-Rd-v2F" id="ulC-RC-TKa"/>
+                        <outlet property="collectionView17IplPage1" destination="YRT-Ph-t2R" id="bTo-av-03Q"/>
                         <outlet property="collectionView1IplPage1" destination="3iI-KG-8qV" id="mde-bI-ebL"/>
                         <outlet property="collectionView2IplPage1" destination="sqW-g9-2hw" id="vLz-Vd-k8B"/>
                         <outlet property="collectionView3IplPage1" destination="IoF-KK-wUT" id="r5E-NV-fil"/>
