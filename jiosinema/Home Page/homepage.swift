@@ -53,7 +53,7 @@ class homepage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     
     
     @IBAction func match24ActionButton(_ sender: UIButton) {
-        let naviget = storyboard?.instantiateViewController(withIdentifier: "matchActionButton") as! match26Page
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "matchActionButton") as! match24Page
         navigationController?.pushViewController(naviget, animated: true)
     }
     
