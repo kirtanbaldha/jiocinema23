@@ -81,6 +81,16 @@
 		D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */; };
 		D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */; };
 		D3D176BC29EE47550003DB01 /* match24Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D176BB29EE47550003DB01 /* match24Page.swift */; };
+		D3D25D6F2A132EFD00CD600F /* Key Tournaments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D6E2A132EFD00CD600F /* Key Tournaments.swift */; };
+		D3D25D712A132FCE00CD600F /* CollectionViewCellForKey_Tournaments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D702A132FCE00CD600F /* CollectionViewCellForKey_Tournaments.swift */; };
+		D3D25D732A1332CD00CD600F /* TATA IPL 2023 Short Highlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D722A1332CD00CD600F /* TATA IPL 2023 Short Highlights.swift */; };
+		D3D25D752A13420D00CD600F /* CollectionViewCellForTATA_IPL_2023_Short_Highlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D742A13420D00CD600F /* CollectionViewCellForTATA_IPL_2023_Short_Highlights.swift */; };
+		D3D25D772A13466100CD600F /* Best Of A Jio Match Center Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D762A13466100CD600F /* Best Of A Jio Match Center Live.swift */; };
+		D3D25D792A1346ED00CD600F /* CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D782A1346ED00CD600F /* CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift */; };
+		D3D25D7B2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D7A2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift */; };
+		D3D25D7D2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D7C2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift */; };
+		D3D25D7F2A134FC300CD600F /* Cricketers Getting Candid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D7E2A134FC300CD600F /* Cricketers Getting Candid.swift */; };
+		D3D25D812A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D25D802A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift */; };
 		D3EB574E29FAEF0C006499EC /* schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB574D29FAEF0C006499EC /* schedule.swift */; };
 		D3EB575029FAF5B5006499EC /* freshTvEp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB574F29FAF5B5006499EC /* freshTvEp.swift */; };
 		D3EB575229FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EB575129FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift */; };
@@ -164,6 +174,16 @@
 		D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell7IplPage1.swift; sourceTree = "<group>"; };
 		D3D176B929EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionViewCellFormatch24.swift; sourceTree = "<group>"; };
 		D3D176BB29EE47550003DB01 /* match24Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = match24Page.swift; sourceTree = "<group>"; };
+		D3D25D6E2A132EFD00CD600F /* Key Tournaments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Key Tournaments.swift"; sourceTree = "<group>"; };
+		D3D25D702A132FCE00CD600F /* CollectionViewCellForKey_Tournaments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForKey_Tournaments.swift; sourceTree = "<group>"; };
+		D3D25D722A1332CD00CD600F /* TATA IPL 2023 Short Highlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TATA IPL 2023 Short Highlights.swift"; sourceTree = "<group>"; };
+		D3D25D742A13420D00CD600F /* CollectionViewCellForTATA_IPL_2023_Short_Highlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForTATA_IPL_2023_Short_Highlights.swift; sourceTree = "<group>"; };
+		D3D25D762A13466100CD600F /* Best Of A Jio Match Center Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Of A Jio Match Center Live.swift"; sourceTree = "<group>"; };
+		D3D25D782A1346ED00CD600F /* CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift; sourceTree = "<group>"; };
+		D3D25D7A2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exclusives Ft. Rcb Stars.swift"; sourceTree = "<group>"; };
+		D3D25D7C2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForExclusives_Ft__Rcb_Stars.swift; sourceTree = "<group>"; };
+		D3D25D7E2A134FC300CD600F /* Cricketers Getting Candid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cricketers Getting Candid.swift"; sourceTree = "<group>"; };
+		D3D25D802A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForCricketers_Getting_Candid.swift; sourceTree = "<group>"; };
 		D3EB574D29FAEF0C006499EC /* schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedule.swift; sourceTree = "<group>"; };
 		D3EB574F29FAF5B5006499EC /* freshTvEp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freshTvEp.swift; sourceTree = "<group>"; };
 		D3EB575129FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForFreshTvEp.swift; sourceTree = "<group>"; };
@@ -229,6 +249,14 @@
 		D398A45429EDB78F007EBE9E = {
 			isa = PBXGroup;
 			children = (
+				D3D25D7A2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift */,
+				D3D25D7C2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift */,
+				D3D25D762A13466100CD600F /* Best Of A Jio Match Center Live.swift */,
+				D3D25D782A1346ED00CD600F /* CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift */,
+				D3D25D742A13420D00CD600F /* CollectionViewCellForTATA_IPL_2023_Short_Highlights.swift */,
+				D3D25D722A1332CD00CD600F /* TATA IPL 2023 Short Highlights.swift */,
+				D3D25D6E2A132EFD00CD600F /* Key Tournaments.swift */,
+				D3D25D702A132FCE00CD600F /* CollectionViewCellForKey_Tournaments.swift */,
 				D3820BD92A1255F400D7EDFD /* CollectionViewCellForBest_Of_TATA_IPL_2023.swift */,
 				D3820BD72A1255B700D7EDFD /* Best Of TATA IPL 2023.swift */,
 				D3820BD32A12535500D7EDFD /* CollectionViewCellForHeroSpeak.swift */,
@@ -264,6 +292,8 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D3D25D7E2A134FC300CD600F /* Cricketers Getting Candid.swift */,
+				D3D25D802A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift */,
 				D306F2EE2A0E1F6B00161E83 /* CollectionViewCell15IplPage1.swift */,
 				D3B11C342A09E91C00B56F0D /* TATA IPL */,
 				D34036F01EC01FF3003F0A89 /* Home Page */,
@@ -376,19 +406,23 @@
 				D3C3571E2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift in Sources */,
 				D3820BCE2A124FE100D7EDFD /* Captain's Corner.swift in Sources */,
 				D3AFA0142A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift in Sources */,
+				D3D25D812A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift in Sources */,
 				D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */,
 				D398A46529EDB78F007EBE9E /* ViewController.swift in Sources */,
 				D3820BD02A1250A900D7EDFD /* CollectionViewCellForCaptionCorner.swift in Sources */,
 				D34036ED1EC01CAC003F0A89 /* PopularSports.swift in Sources */,
 				D377FFC02B4290C100695011 /* CollectionViewCell13IplPage1.swift in Sources */,
 				D3B131E84B7208E300772BC0 /* highlightsPage.swift in Sources */,
+				D3D25D7D2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift in Sources */,
 				D3AE4C8F29F11F4C00077406 /* CollectionViewCell7.swift in Sources */,
 				D34099992A0CC9720051236E /* CollectionViewCell10IplPage1.swift in Sources */,
 				D398A46B29EDB78F007EBE9E /* jiosinema.xcdatamodeld in Sources */,
 				D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */,
 				D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */,
+				D3D25D6F2A132EFD00CD600F /* Key Tournaments.swift in Sources */,
 				D3820BC22A12440900D7EDFD /* moviesPage.swift in Sources */,
 				D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */,
+				D3D25D772A13466100CD600F /* Best Of A Jio Match Center Live.swift in Sources */,
 				D3EC10B640A6FD9B00BB2559 /* CollectionViewCell8IplPage1.swift in Sources */,
 				D37A01B82A03822200146397 /* Popular Web Shows.swift in Sources */,
 				D35FA0B92A04DEE20061F020 /* CollectionViewCell14.swift in Sources */,
@@ -405,12 +439,14 @@
 				D3B131F24B7222C000772BC0 /* CollectionViewCell9.swift in Sources */,
 				D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */,
 				D3B11C3C2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift in Sources */,
+				D3D25D732A1332CD00CD600F /* TATA IPL 2023 Short Highlights.swift in Sources */,
 				D376971929EE14AF00A1C89F /* CollectionViewCell4.swift in Sources */,
 				D3EB575229FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift in Sources */,
 				D3820BDA2A1255F400D7EDFD /* CollectionViewCellForBest_Of_TATA_IPL_2023.swift in Sources */,
 				D3820BD42A12535500D7EDFD /* CollectionViewCellForHeroSpeak.swift in Sources */,
 				D3AD75232A1225C000F92DD2 /* CollectionViewCell17IplPage1.swift in Sources */,
 				D3D176BC29EE47550003DB01 /* match24Page.swift in Sources */,
+				D3D25D7B2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift in Sources */,
 				D36A47E329FAA74500B3B5E1 /* CollectionViewCell10.swift in Sources */,
 				D3820BCC2A124DF700D7EDFD /* CollectionViewCellForMatch56MivsRCB.swift in Sources */,
 				D340999B2A0CCE370051236E /* CollectionViewCell11IplPage1.swift in Sources */,
@@ -419,6 +455,7 @@
 				D3820BD22A1252A200D7EDFD /* HeroSpeak.swift in Sources */,
 				D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */,
 				D35FA0BF2A04F2890061F020 /* CollectionViewCell17.swift in Sources */,
+				D3D25D712A132FCE00CD600F /* CollectionViewCellForKey_Tournaments.swift in Sources */,
 				D3820BBC2A12372500D7EDFD /* CollectionViewCell19IplPage1.swift in Sources */,
 				D34036EB1EC00DF9003F0A89 /* global Hits In Hindi.swift in Sources */,
 				D3B2D2612D095FB900B76757 /* CollectionViewCell3IplPage1.swift in Sources */,
@@ -438,6 +475,7 @@
 				D3EB574E29FAEF0C006499EC /* schedule.swift in Sources */,
 				D3EB575029FAF5B5006499EC /* freshTvEp.swift in Sources */,
 				D3B292D629F94FE100F8AEE2 /* allLogo.swift in Sources */,
+				D3D25D752A13420D00CD600F /* CollectionViewCellForTATA_IPL_2023_Short_Highlights.swift in Sources */,
 				D376971F29EE2F1A00A1C89F /* CollectionViewCell5.swift in Sources */,
 				D398A47829EDCBBC007EBE9E /* homepage.swift in Sources */,
 				D3B131EA4B720A0800772BC0 /* CollectionViewCellForHighlights.swift in Sources */,
@@ -445,6 +483,8 @@
 				D398A47E29EDD477007EBE9E /* CollectionViewCell3.swift in Sources */,
 				D3820BBE2A123C4000D7EDFD /* CollectionViewCell20IplPage1.swift in Sources */,
 				D398A46329EDB78F007EBE9E /* SceneDelegate.swift in Sources */,
+				D3D25D7F2A134FC300CD600F /* Cricketers Getting Candid.swift in Sources */,
+				D3D25D792A1346ED00CD600F /* CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

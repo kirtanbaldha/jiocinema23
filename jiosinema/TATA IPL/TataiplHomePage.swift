@@ -100,14 +100,34 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
         navigationController?.pushViewController(naviget, animated: true)
     }
     
+    @IBAction func Key_Tournaments(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Key_Tournaments") as! Key_Tournaments
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func TATA_IPL_2023_Short_Highlights(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "TATA_IPL_2023_Short_Highlights") as! TATA_IPL_2023_Short_Highlights
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func Best_Of_A_Jio_Match_Center_Live(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Best_Of_A_Jio_Match_Center_Live") as! Best_Of_A_Jio_Match_Center_Live
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func Exclusives_Ft__Rcb_Stars(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Exclusives_Ft__Rcb_Stars") as! Exclusives_Ft__Rcb_Stars
+        navigationController?.pushViewController(naviget, animated: true)
+    }
     
     
     
-    
-    
-    
-    
-    
+    @IBAction func Cricketers_Getting_Candid(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Cricketers_Getting_Candid") as! Cricketers_Getting_Candid
+        navigationController?.pushViewController(naviget, animated: true)
+    }
     
     
     
