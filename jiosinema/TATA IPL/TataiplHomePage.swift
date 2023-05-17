@@ -131,6 +131,63 @@ class TataiplHomePage: UIViewController,UICollectionViewDelegate,UICollectionVie
     
     
     
+    @IBAction func Follow_your_TATA_IPL_Teams(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "allLogo") as! allLogo
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func Aakashvani(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Aakashvani") as! Aakashvani
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func Exclusives_Ft__GT_Stars(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Exclusives_Ft__GT_Stars") as! Exclusives_Ft__GT_Stars
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func Best_Of_Insiders_Lens(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Best_Of_Insiders_Lens") as! Best_Of_Insiders_Lens
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func Last_Over_Drama(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "Last_Over_Drama") as! Last_Over_Drama
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    @IBAction func tata_ipl_2023_top_Moments(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "tata_ipl_2023_top_Moments") as! tata_ipl_2023_top_Moments
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func tata_ipl_2023_top_Knocks(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "tata_ipl_2023_top_Knocks") as! tata_ipl_2023_top_Knocks
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func tata_ipl_2023_top_spells(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "tata_ipl_2023_top_spells") as! tata_ipl_2023_top_spells
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func tata_ipl_2023_top_Replays(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "tata_ipl_2023_top_Replays") as! tata_ipl_2023_top_Replays
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
+    @IBAction func PopularSports(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "PopularSports") as! PopularSports
+        navigationController?.pushViewController(naviget, animated: true)
+    }
+    
+    
     
     
     
