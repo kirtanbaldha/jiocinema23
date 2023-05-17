@@ -11,6 +11,8 @@
 		D306F2ED2A0E1BB600161E83 /* CollectionViewCell14IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306F2EC2A0E1BB600161E83 /* CollectionViewCell14IplPage1.swift */; };
 		D306F2EF2A0E1F6B00161E83 /* CollectionViewCell15IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306F2EE2A0E1F6B00161E83 /* CollectionViewCell15IplPage1.swift */; };
 		D306F2F12A0E220800161E83 /* CollectionViewCell16IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D306F2F02A0E220800161E83 /* CollectionViewCell16IplPage1.swift */; };
+		D327CA262A157E4C00F53948 /* CollectionViewCellForMovie1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327CA252A157E4C00F53948 /* CollectionViewCellForMovie1.swift */; };
+		D327CA282A1581FF00F53948 /* CollectionViewCellForMovie2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327CA272A1581FF00F53948 /* CollectionViewCellForMovie2.swift */; };
 		D34036E91EC00C81003F0A89 /* globalHitsInHindi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34036E81EC00C81003F0A89 /* globalHitsInHindi.swift */; };
 		D34036EB1EC00DF9003F0A89 /* global Hits In Hindi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34036EA1EC00DF9003F0A89 /* global Hits In Hindi.swift */; };
 		D34036ED1EC01CAC003F0A89 /* PopularSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34036EC1EC01CAC003F0A89 /* PopularSports.swift */; };
@@ -38,7 +40,6 @@
 		D3820BBC2A12372500D7EDFD /* CollectionViewCell19IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BBB2A12372500D7EDFD /* CollectionViewCell19IplPage1.swift */; };
 		D3820BBE2A123C4000D7EDFD /* CollectionViewCell20IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BBD2A123C4000D7EDFD /* CollectionViewCell20IplPage1.swift */; };
 		D3820BC02A1240B900D7EDFD /* CollectionViewCell21IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BBF2A1240B900D7EDFD /* CollectionViewCell21IplPage1.swift */; };
-		D3820BC22A12440900D7EDFD /* moviesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BC12A12440800D7EDFD /* moviesPage.swift */; };
 		D3820BC42A1244A100D7EDFD /* TATA IPL 2023 Highlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BC32A1244A100D7EDFD /* TATA IPL 2023 Highlights.swift */; };
 		D3820BC82A124A5B00D7EDFD /* CollectionViewCellForIPLPageHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BC72A124A5B00D7EDFD /* CollectionViewCellForIPLPageHighlights.swift */; };
 		D3820BCA2A124C8100D7EDFD /* Match 56- Mi vs RCB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3820BC92A124C8100D7EDFD /* Match 56- Mi vs RCB.swift */; };
@@ -92,6 +93,7 @@
 		D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */; };
 		D3B2D2612D095FB900B76757 /* CollectionViewCell3IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */; };
 		D3B2D2632D09654B00B76757 /* CollectionViewCell4IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D2622D09654B00B76757 /* CollectionViewCell4IplPage1.swift */; };
+		D3B487B72A1575C8002398EF /* MoviePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B487B62A1575C8002398EF /* MoviePage.swift */; };
 		D3C3571E2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3571D2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift */; };
 		D3C357202A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C3571F2A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift */; };
 		D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */; };
@@ -118,6 +120,8 @@
 		D306F2EC2A0E1BB600161E83 /* CollectionViewCell14IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell14IplPage1.swift; sourceTree = "<group>"; };
 		D306F2EE2A0E1F6B00161E83 /* CollectionViewCell15IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell15IplPage1.swift; sourceTree = "<group>"; };
 		D306F2F02A0E220800161E83 /* CollectionViewCell16IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell16IplPage1.swift; sourceTree = "<group>"; };
+		D327CA252A157E4C00F53948 /* CollectionViewCellForMovie1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie1.swift; sourceTree = "<group>"; };
+		D327CA272A1581FF00F53948 /* CollectionViewCellForMovie2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie2.swift; sourceTree = "<group>"; };
 		D34036E81EC00C81003F0A89 /* globalHitsInHindi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalHitsInHindi.swift; sourceTree = "<group>"; };
 		D34036EA1EC00DF9003F0A89 /* global Hits In Hindi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "global Hits In Hindi.swift"; sourceTree = "<group>"; };
 		D34036EC1EC01CAC003F0A89 /* PopularSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularSports.swift; sourceTree = "<group>"; };
@@ -145,7 +149,6 @@
 		D3820BBB2A12372500D7EDFD /* CollectionViewCell19IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell19IplPage1.swift; sourceTree = "<group>"; };
 		D3820BBD2A123C4000D7EDFD /* CollectionViewCell20IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell20IplPage1.swift; sourceTree = "<group>"; };
 		D3820BBF2A1240B900D7EDFD /* CollectionViewCell21IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell21IplPage1.swift; sourceTree = "<group>"; };
-		D3820BC12A12440800D7EDFD /* moviesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviesPage.swift; sourceTree = "<group>"; };
 		D3820BC32A1244A100D7EDFD /* TATA IPL 2023 Highlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TATA IPL 2023 Highlights.swift"; sourceTree = "<group>"; };
 		D3820BC72A124A5B00D7EDFD /* CollectionViewCellForIPLPageHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForIPLPageHighlights.swift; sourceTree = "<group>"; };
 		D3820BC92A124C8100D7EDFD /* Match 56- Mi vs RCB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Match 56- Mi vs RCB.swift"; sourceTree = "<group>"; };
@@ -201,6 +204,7 @@
 		D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewForallLogo.swift; sourceTree = "<group>"; };
 		D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3IplPage1.swift; sourceTree = "<group>"; };
 		D3B2D2622D09654B00B76757 /* CollectionViewCell4IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4IplPage1.swift; sourceTree = "<group>"; };
+		D3B487B62A1575C8002398EF /* MoviePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePage.swift; sourceTree = "<group>"; };
 		D3C3571D2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5IplPage1.swift; sourceTree = "<group>"; };
 		D3C3571F2A0B7B52005D1A4B /* CollectionViewCell6IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell6IplPage1.swift; sourceTree = "<group>"; };
 		D3C357212A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell7IplPage1.swift; sourceTree = "<group>"; };
@@ -281,7 +285,6 @@
 		D398A45429EDB78F007EBE9E = {
 			isa = PBXGroup;
 			children = (
-				D3D25D7A2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift */,
 				D398A45F29EDB78F007EBE9E /* jiosinema */,
 				D398A45E29EDB78F007EBE9E /* Products */,
 			);
@@ -302,6 +305,8 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D327CA252A157E4C00F53948 /* CollectionViewCellForMovie1.swift */,
+				D3B487B82A1575D6002398EF /* Movie Page */,
 				D3B11C342A09E91C00B56F0D /* TATA IPL */,
 				D34036F01EC01FF3003F0A89 /* Home Page */,
 				D398A46C29EDB791007EBE9E /* Assets.xcassets */,
@@ -321,6 +326,7 @@
 				D3ADCE542A149D3600DF9272 /* CollectionViewCellFortata_ipl_2023_top_Replays.swift */,
 				D3ADCE4E2A1499F200DF9272 /* tata ipl 2023 top spells.swift */,
 				D3ADCE502A149A7000DF9272 /* CollectionViewCellFortata_ipl_2023_top_spells.swift */,
+				D3D25D7A2A134A0C00CD600F /* Exclusives Ft. Rcb Stars.swift */,
 				D3ADCE4C2A14980200DF9272 /* tata ipl 2023 top Knocks.swift */,
 				D3ADCE4A2A1497CC00DF9272 /* CollectionViewCellFortata ipl 2023 top Knocks.swift */,
 				D3ADCE482A1495F700DF9272 /* CollectionViewCellFortata_ipl_2023_top_Moments.swift */,
@@ -357,7 +363,6 @@
 				D3820BC92A124C8100D7EDFD /* Match 56- Mi vs RCB.swift */,
 				D3820BC72A124A5B00D7EDFD /* CollectionViewCellForIPLPageHighlights.swift */,
 				D3820BC32A1244A100D7EDFD /* TATA IPL 2023 Highlights.swift */,
-				D3820BC12A12440800D7EDFD /* moviesPage.swift */,
 				D3820BBF2A1240B900D7EDFD /* CollectionViewCell21IplPage1.swift */,
 				D3820BBD2A123C4000D7EDFD /* CollectionViewCell20IplPage1.swift */,
 				D3820BBB2A12372500D7EDFD /* CollectionViewCell19IplPage1.swift */,
@@ -375,6 +380,15 @@
 				D3B11C3B2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift */,
 			);
 			path = "TATA IPL";
+			sourceTree = "<group>";
+		};
+		D3B487B82A1575D6002398EF /* Movie Page */ = {
+			isa = PBXGroup;
+			children = (
+				D3B487B62A1575C8002398EF /* MoviePage.swift */,
+				D327CA272A1581FF00F53948 /* CollectionViewCellForMovie2.swift */,
+			);
+			path = "Movie Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,12 +482,14 @@
 				D3B131E84B7208E300772BC0 /* highlightsPage.swift in Sources */,
 				D3D25D7D2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift in Sources */,
 				D3AE4C8F29F11F4C00077406 /* CollectionViewCell7.swift in Sources */,
+				D3B487B72A1575C8002398EF /* MoviePage.swift in Sources */,
 				D34099992A0CC9720051236E /* CollectionViewCell10IplPage1.swift in Sources */,
 				D398A46B29EDB78F007EBE9E /* jiosinema.xcdatamodeld in Sources */,
+				D327CA262A157E4C00F53948 /* CollectionViewCellForMovie1.swift in Sources */,
 				D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */,
 				D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */,
 				D3D25D6F2A132EFD00CD600F /* Key Tournaments.swift in Sources */,
-				D3820BC22A12440900D7EDFD /* moviesPage.swift in Sources */,
+				D327CA282A1581FF00F53948 /* CollectionViewCellForMovie2.swift in Sources */,
 				D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */,
 				D3ADCE372A148AC100DF9272 /* CollectionViewCellForExclusives_Ft__GT_Stars.swift in Sources */,
 				D3D25D772A13466100CD600F /* Best Of A Jio Match Center Live.swift in Sources */,
