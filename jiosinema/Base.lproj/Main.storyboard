@@ -1140,10 +1140,9 @@
         <!--MOVIES-->
         <scene sceneID="UX1-UQ-kKi">
             <objects>
-                <navigationController id="ipe-Xh-9uz" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="ipe-Xh-9uz" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="MOVIES" image="movie.empty" selectedImage="movie.fill" id="8Hz-ue-A0p"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jYK-KM-p1r">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -4472,36 +4471,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VBb-M0-bXi">
-                                <rect key="frame" x="0.0" y="88" width="390" height="624"/>
+                                <rect key="frame" x="0.0" y="44" width="390" height="668"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e5R-nj-X1Q">
-                                        <rect key="frame" x="0.0" y="-11" width="382" height="3500"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5R-nj-X1Q">
+                                        <rect key="frame" x="0.0" y="-1" width="382" height="3490"/>
                                         <subviews>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4la-tM-TUd">
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4la-tM-TUd">
                                                 <rect key="frame" x="0.0" y="61" width="382" height="171"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ink-l3-N94">
-                                                    <size key="itemSize" width="128" height="128"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ink-l3-N94">
+                                                    <size key="itemSize" width="370" height="171"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForMovie1" reuseIdentifier="cellForMovie1" id="rVN-2M-rb2" customClass="CollectionViewCellForMovie1" customModule="jiosinema" customModuleProvider="target">
-                                                        <rect key="frame" x="6" y="0.0" width="370" height="171"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="388" height="171"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="v6S-39-RkO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="370" height="171"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="388" height="171"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uvH-vm-Ydk">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="370" height="171"/>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uvH-vm-Ydk">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="388" height="171"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
                                                             </subviews>
                                                         </collectionViewCellContentView>
-                                                        <size key="customSize" width="370" height="171"/>
+                                                        <size key="customSize" width="388" height="171"/>
                                                         <connections>
                                                             <outlet property="imgForMovieCollectionView1" destination="uvH-vm-Ydk" id="aHF-xY-XVf"/>
                                                         </connections>
@@ -4513,17 +4512,110 @@
                                                 </connections>
                                             </collectionView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="YOP 10 Picks!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYw-0k-20B">
-                                                <rect key="frame" x="8" y="240" width="112" height="33"/>
+                                                <rect key="frame" x="8" y="233" width="112" height="33"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h8b-oz-FbH">
-                                                <rect key="frame" x="0.0" y="270" width="394" height="206"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100 Crore Club" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XcF-QV-axy">
+                                                <rect key="frame" x="8" y="484" width="122" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1q9-i4-FHS">
+                                                <rect key="frame" x="0.0" y="525" width="394" height="153"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oX2-tP-cDf">
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ml9-He-4Bo">
+                                                    <size key="itemSize" width="128" height="152"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForMovie3" reuseIdentifier="cellForMovie3" id="G4D-ee-d16" customClass="CollectionViewCellForMovie3" customModule="jiosinema" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.66666666666666663" width="128" height="152"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2ry-hP-iGb">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qP-59-xwV">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="128" height="152"/>
+                                                        <connections>
+                                                            <outlet property="imgForMovieCollectionView3" destination="5qP-59-xwV" id="dtu-lQ-Cpy"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="Uhk-Mu-wbN" id="ycg-S8-sCU"/>
+                                                    <outlet property="delegate" destination="Uhk-Mu-wbN" id="byd-UG-ssy"/>
+                                                </connections>
+                                            </collectionView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Wizarding World" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJK-jg-hFm">
+                                                <rect key="frame" x="8" y="686" width="265" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUS-tm-YEi">
+                                                <rect key="frame" x="347" y="656" width="35" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="right-arrow-1"/>
+                                                <connections>
+                                                    <action selector="HeroSpeak:" destination="SIA-99-d9l" eventType="touchUpInside" id="8TW-qh-BCx"/>
+                                                </connections>
+                                            </button>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="byb-5a-yfR">
+                                                <rect key="frame" x="0.0" y="727" width="394" height="152"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="y42-Zx-hR4">
+                                                    <size key="itemSize" width="128" height="128"/>
+                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                </collectionViewFlowLayout>
+                                                <cells>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForMovie4" reuseIdentifier="cellForMovie4" id="kHx-nb-gT9" customClass="CollectionViewCellForMovie4" customModule="jiosinema" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Hh8-EX-sG7">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mlq-q3-SgR">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
+                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                        </collectionViewCellContentView>
+                                                        <size key="customSize" width="128" height="152"/>
+                                                        <connections>
+                                                            <outlet property="imgForMovieCollectionView4" destination="Mlq-q3-SgR" id="XMw-n3-Cxr"/>
+                                                        </connections>
+                                                    </collectionViewCell>
+                                                </cells>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="Uhk-Mu-wbN" id="TO6-oC-JYp"/>
+                                                    <outlet property="delegate" destination="Uhk-Mu-wbN" id="QhR-GG-Uv8"/>
+                                                </connections>
+                                            </collectionView>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h8b-oz-FbH">
+                                                <rect key="frame" x="0.0" y="274" width="400" height="206"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oX2-tP-cDf">
                                                     <size key="itemSize" width="133" height="205"/>
                                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -4531,13 +4623,13 @@
                                                 </collectionViewFlowLayout>
                                                 <cells>
                                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForMovie2" reuseIdentifier="cellForMovie2" id="KhG-eO-mtI" customClass="CollectionViewCellForMovie2" customModule="jiosinema" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="133" height="205"/>
+                                                        <rect key="frame" x="0.0" y="0.66666666666666663" width="133" height="205"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="IZg-0R-ORd">
                                                             <rect key="frame" x="0.0" y="0.0" width="133" height="205"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-ck-XJY">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KOd-ck-XJY">
                                                                     <rect key="frame" x="0.0" y="0.0" width="133" height="205"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
@@ -4611,6 +4703,8 @@
                     <connections>
                         <outlet property="collectionView1MoviePage" destination="4la-tM-TUd" id="Wgs-0r-iEp"/>
                         <outlet property="collectionView2MoviePage" destination="h8b-oz-FbH" id="xyx-fS-8bf"/>
+                        <outlet property="collectionView3MoviePage" destination="1q9-i4-FHS" id="hA2-a7-VqF"/>
+                        <outlet property="collectionView4MoviePage" destination="byb-5a-yfR" id="DDw-sJ-hXl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNS-Vz-ADu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
