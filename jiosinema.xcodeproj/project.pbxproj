@@ -29,6 +29,24 @@
 		D35FA0BD2A04EB5D0061F020 /* CollectionViewCell16.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FA0BC2A04EB5D0061F020 /* CollectionViewCell16.swift */; };
 		D35FA0BF2A04F2890061F020 /* CollectionViewCell17.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FA0BE2A04F2890061F020 /* CollectionViewCell17.swift */; };
 		D36A47E329FAA74500B3B5E1 /* CollectionViewCell10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36A47E229FAA74500B3B5E1 /* CollectionViewCell10.swift */; };
+		D37583262A1B2EED00ED5AEB /* CollectionViewCellForMovie15.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583252A1B2EED00ED5AEB /* CollectionViewCellForMovie15.swift */; };
+		D37583282A1B315200ED5AEB /* CollectionViewCellForMovie16.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583272A1B315200ED5AEB /* CollectionViewCellForMovie16.swift */; };
+		D375832A2A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583292A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift */; };
+		D375832C2A1B369900ED5AEB /* New & Trending.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375832B2A1B369900ED5AEB /* New & Trending.swift */; };
+		D375832E2A1B36CE00ED5AEB /* Top-Rated Originals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375832D2A1B36CE00ED5AEB /* Top-Rated Originals.swift */; };
+		D37583302A1B36ED00ED5AEB /* Your Daily Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375832F2A1B36ED00ED5AEB /* Your Daily Fix.swift */; };
+		D37583322A1B370A00ED5AEB /* Crime & Mystery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583312A1B370A00ED5AEB /* Crime & Mystery.swift */; };
+		D37583342A1B373400ED5AEB /* Edgy Thrillers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583332A1B373400ED5AEB /* Edgy Thrillers.swift */; };
+		D37583362A1B375200ED5AEB /* Multi-Starrer Entertainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583352A1B375200ED5AEB /* Multi-Starrer Entertainment.swift */; };
+		D37583382A1B379900ED5AEB /* Reality TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583372A1B379900ED5AEB /* Reality TV.swift */; };
+		D375833A2A1B383C00ED5AEB /* Critically Acclaimed.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583392A1B383C00ED5AEB /* Critically Acclaimed.swift */; };
+		D375833C2A1B388400ED5AEB /* Horror House.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375833B2A1B388400ED5AEB /* Horror House.swift */; };
+		D375833E2A1B38A500ED5AEB /* The Good Fife.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375833D2A1B38A500ED5AEB /* The Good Fife.swift */; };
+		D37583402A1B38C300ED5AEB /* International Shows in Hindi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375833F2A1B38C300ED5AEB /* International Shows in Hindi.swift */; };
+		D37583422A1B39A400ED5AEB /* Popular in Mythology.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583412A1B39A400ED5AEB /* Popular in Mythology.swift */; };
+		D37583442A1B39CD00ED5AEB /* Top Comedies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583432A1B39CD00ED5AEB /* Top Comedies.swift */; };
+		D37583462A1B39EA00ED5AEB /* Evergreen Soaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583452A1B39EA00ED5AEB /* Evergreen Soaps.swift */; };
+		D37583482A1B3B6E00ED5AEB /* CollectionViewCellForNewTrending.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37583472A1B3B6E00ED5AEB /* CollectionViewCellForNewTrending.swift */; };
 		D376971929EE14AF00A1C89F /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376971829EE14AF00A1C89F /* CollectionViewCell4.swift */; };
 		D376971F29EE2F1A00A1C89F /* CollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376971E29EE2F1A00A1C89F /* CollectionViewCell5.swift */; };
 		D376972129EE35BD00A1C89F /* CollectionViewCellForMatch26.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376972029EE35BC00A1C89F /* CollectionViewCellForMatch26.swift */; };
@@ -95,6 +113,14 @@
 		D3B200D22A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D12A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift */; };
 		D3B200D42A1B2E3600132B5F /* CollectionViewCellForMovie7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D32A1B2E3600132B5F /* CollectionViewCellForMovie7.swift */; };
 		D3B200D62A1B30B300132B5F /* CollectionViewCellForMovie8.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */; };
+		D3B200D82A1B35DE00132B5F /* CollectionViewCellForMovie9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D72A1B35DE00132B5F /* CollectionViewCellForMovie9.swift */; };
+		D3B200DA2A1B3A9D00132B5F /* CollectionViewCellForMovie10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D92A1B3A9D00132B5F /* CollectionViewCellForMovie10.swift */; };
+		D3B200DC2A1B3D3500132B5F /* CollectionViewCellForMovie11.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200DB2A1B3D3500132B5F /* CollectionViewCellForMovie11.swift */; };
+		D3B200DE2A1B3F7400132B5F /* CollectionViewCellForMovie12.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200DD2A1B3F7400132B5F /* CollectionViewCellForMovie12.swift */; };
+		D3B200E02A1B403700132B5F /* imgForMovieCollectionView12.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200DF2A1B403700132B5F /* imgForMovieCollectionView12.swift */; };
+		D3B200E22A1B433900132B5F /* CollectionViewCellForLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200E12A1B433900132B5F /* CollectionViewCellForLanguage.swift */; };
+		D3B200E42A1B45AE00132B5F /* CollectionViewCellForMovie13.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200E32A1B45AE00132B5F /* CollectionViewCellForMovie13.swift */; };
+		D3B200E62A1B476F00132B5F /* CollectionViewCellForMovie14.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200E52A1B476F00132B5F /* CollectionViewCellForMovie14.swift */; };
 		D3B292D629F94FE100F8AEE2 /* allLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D529F94FE100F8AEE2 /* allLogo.swift */; };
 		D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */; };
 		D3B2D2612D095FB900B76757 /* CollectionViewCell3IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */; };
@@ -144,6 +170,24 @@
 		D35FA0BC2A04EB5D0061F020 /* CollectionViewCell16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell16.swift; sourceTree = "<group>"; };
 		D35FA0BE2A04F2890061F020 /* CollectionViewCell17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell17.swift; sourceTree = "<group>"; };
 		D36A47E229FAA74500B3B5E1 /* CollectionViewCell10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell10.swift; sourceTree = "<group>"; };
+		D37583252A1B2EED00ED5AEB /* CollectionViewCellForMovie15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie15.swift; sourceTree = "<group>"; };
+		D37583272A1B315200ED5AEB /* CollectionViewCellForMovie16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie16.swift; sourceTree = "<group>"; };
+		D37583292A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie17.swift; sourceTree = "<group>"; };
+		D375832B2A1B369900ED5AEB /* New & Trending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New & Trending.swift"; sourceTree = "<group>"; };
+		D375832D2A1B36CE00ED5AEB /* Top-Rated Originals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Top-Rated Originals.swift"; sourceTree = "<group>"; };
+		D375832F2A1B36ED00ED5AEB /* Your Daily Fix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Your Daily Fix.swift"; sourceTree = "<group>"; };
+		D37583312A1B370A00ED5AEB /* Crime & Mystery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Crime & Mystery.swift"; sourceTree = "<group>"; };
+		D37583332A1B373400ED5AEB /* Edgy Thrillers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edgy Thrillers.swift"; sourceTree = "<group>"; };
+		D37583352A1B375200ED5AEB /* Multi-Starrer Entertainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Multi-Starrer Entertainment.swift"; sourceTree = "<group>"; };
+		D37583372A1B379900ED5AEB /* Reality TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reality TV.swift"; sourceTree = "<group>"; };
+		D37583392A1B383C00ED5AEB /* Critically Acclaimed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Critically Acclaimed.swift"; sourceTree = "<group>"; };
+		D375833B2A1B388400ED5AEB /* Horror House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Horror House.swift"; sourceTree = "<group>"; };
+		D375833D2A1B38A500ED5AEB /* The Good Fife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Good Fife.swift"; sourceTree = "<group>"; };
+		D375833F2A1B38C300ED5AEB /* International Shows in Hindi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "International Shows in Hindi.swift"; sourceTree = "<group>"; };
+		D37583412A1B39A400ED5AEB /* Popular in Mythology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Popular in Mythology.swift"; sourceTree = "<group>"; };
+		D37583432A1B39CD00ED5AEB /* Top Comedies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Top Comedies.swift"; sourceTree = "<group>"; };
+		D37583452A1B39EA00ED5AEB /* Evergreen Soaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Evergreen Soaps.swift"; sourceTree = "<group>"; };
+		D37583472A1B3B6E00ED5AEB /* CollectionViewCellForNewTrending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForNewTrending.swift; sourceTree = "<group>"; };
 		D376971829EE14AF00A1C89F /* CollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
 		D376971E29EE2F1A00A1C89F /* CollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5.swift; sourceTree = "<group>"; };
 		D376972029EE35BC00A1C89F /* CollectionViewCellForMatch26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMatch26.swift; sourceTree = "<group>"; };
@@ -212,6 +256,14 @@
 		D3B200D12A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie6.swift; sourceTree = "<group>"; };
 		D3B200D32A1B2E3600132B5F /* CollectionViewCellForMovie7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie7.swift; sourceTree = "<group>"; };
 		D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie8.swift; sourceTree = "<group>"; };
+		D3B200D72A1B35DE00132B5F /* CollectionViewCellForMovie9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie9.swift; sourceTree = "<group>"; };
+		D3B200D92A1B3A9D00132B5F /* CollectionViewCellForMovie10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie10.swift; sourceTree = "<group>"; };
+		D3B200DB2A1B3D3500132B5F /* CollectionViewCellForMovie11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie11.swift; sourceTree = "<group>"; };
+		D3B200DD2A1B3F7400132B5F /* CollectionViewCellForMovie12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie12.swift; sourceTree = "<group>"; };
+		D3B200DF2A1B403700132B5F /* imgForMovieCollectionView12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgForMovieCollectionView12.swift; sourceTree = "<group>"; };
+		D3B200E12A1B433900132B5F /* CollectionViewCellForLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForLanguage.swift; sourceTree = "<group>"; };
+		D3B200E32A1B45AE00132B5F /* CollectionViewCellForMovie13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie13.swift; sourceTree = "<group>"; };
+		D3B200E52A1B476F00132B5F /* CollectionViewCellForMovie14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie14.swift; sourceTree = "<group>"; };
 		D3B292D529F94FE100F8AEE2 /* allLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allLogo.swift; sourceTree = "<group>"; };
 		D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewForallLogo.swift; sourceTree = "<group>"; };
 		D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3IplPage1.swift; sourceTree = "<group>"; };
@@ -297,6 +349,8 @@
 		D398A45429EDB78F007EBE9E = {
 			isa = PBXGroup;
 			children = (
+				D37583292A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift */,
+				D37583272A1B315200ED5AEB /* CollectionViewCellForMovie16.swift */,
 				D398A45F29EDB78F007EBE9E /* jiosinema */,
 				D398A45E29EDB78F007EBE9E /* Products */,
 			);
@@ -317,7 +371,27 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
-				D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */,
+				D37583472A1B3B6E00ED5AEB /* CollectionViewCellForNewTrending.swift */,
+				D37583452A1B39EA00ED5AEB /* Evergreen Soaps.swift */,
+				D37583432A1B39CD00ED5AEB /* Top Comedies.swift */,
+				D37583412A1B39A400ED5AEB /* Popular in Mythology.swift */,
+				D375833F2A1B38C300ED5AEB /* International Shows in Hindi.swift */,
+				D375833D2A1B38A500ED5AEB /* The Good Fife.swift */,
+				D375833B2A1B388400ED5AEB /* Horror House.swift */,
+				D37583392A1B383C00ED5AEB /* Critically Acclaimed.swift */,
+				D37583372A1B379900ED5AEB /* Reality TV.swift */,
+				D37583352A1B375200ED5AEB /* Multi-Starrer Entertainment.swift */,
+				D37583332A1B373400ED5AEB /* Edgy Thrillers.swift */,
+				D37583312A1B370A00ED5AEB /* Crime & Mystery.swift */,
+				D375832F2A1B36ED00ED5AEB /* Your Daily Fix.swift */,
+				D375832D2A1B36CE00ED5AEB /* Top-Rated Originals.swift */,
+				D375832B2A1B369900ED5AEB /* New & Trending.swift */,
+				D37583252A1B2EED00ED5AEB /* CollectionViewCellForMovie15.swift */,
+				D3B200E52A1B476F00132B5F /* CollectionViewCellForMovie14.swift */,
+				D3B200E32A1B45AE00132B5F /* CollectionViewCellForMovie13.swift */,
+				D3B200E12A1B433900132B5F /* CollectionViewCellForLanguage.swift */,
+				D3B200DF2A1B403700132B5F /* imgForMovieCollectionView12.swift */,
+				D3B200DD2A1B3F7400132B5F /* CollectionViewCellForMovie12.swift */,
 				D3B487B82A1575D6002398EF /* Movie Page */,
 				D3B11C342A09E91C00B56F0D /* TATA IPL */,
 				D34036F01EC01FF3003F0A89 /* Home Page */,
@@ -398,7 +472,11 @@
 			isa = PBXGroup;
 			children = (
 				D3B200CF2A1B263800132B5F /* CollectionViewCellForMovie05.swift */,
+				D3B200DB2A1B3D3500132B5F /* CollectionViewCellForMovie11.swift */,
+				D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */,
 				D3B487B62A1575C8002398EF /* MoviePage.swift */,
+				D3B200D92A1B3A9D00132B5F /* CollectionViewCellForMovie10.swift */,
+				D3B200D72A1B35DE00132B5F /* CollectionViewCellForMovie9.swift */,
 				D3B200D32A1B2E3600132B5F /* CollectionViewCellForMovie7.swift */,
 				D3B200D12A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift */,
 				D35E8AE62A1732160075CE93 /* CollectionViewCellForMovie4.swift */,
@@ -480,16 +558,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B200E62A1B476F00132B5F /* CollectionViewCellForMovie14.swift in Sources */,
 				D377E26A431942B300C59AF3 /* CollectionViewCell13.swift in Sources */,
 				D3ADCE4F2A1499F200DF9272 /* tata ipl 2023 top spells.swift in Sources */,
 				D34099972A0CBFB30051236E /* CollectionViewCell9IplPage1.swift in Sources */,
 				D3ADCE332A14881B00DF9272 /* CollectionViewCellForAakashvani.swift in Sources */,
 				D3820BC02A1240B900D7EDFD /* CollectionViewCell21IplPage1.swift in Sources */,
 				D3ADCE4B2A1497CC00DF9272 /* CollectionViewCellFortata ipl 2023 top Knocks.swift in Sources */,
+				D37583422A1B39A400ED5AEB /* Popular in Mythology.swift in Sources */,
 				D3C3571E2A0B7338005D1A4B /* CollectionViewCell5IplPage1.swift in Sources */,
+				D3B200E22A1B433900132B5F /* CollectionViewCellForLanguage.swift in Sources */,
 				D3820BCE2A124FE100D7EDFD /* Captain's Corner.swift in Sources */,
 				D3ADCE472A14955E00DF9272 /* tata ipl 2023 top Moments.swift in Sources */,
 				D3AFA0142A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift in Sources */,
+				D3B200E02A1B403700132B5F /* imgForMovieCollectionView12.swift in Sources */,
 				D3D25D812A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift in Sources */,
 				D3B200D42A1B2E3600132B5F /* CollectionViewCellForMovie7.swift in Sources */,
 				D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */,
@@ -498,7 +580,11 @@
 				D3B200D62A1B30B300132B5F /* CollectionViewCellForMovie8.swift in Sources */,
 				D3820BD02A1250A900D7EDFD /* CollectionViewCellForCaptionCorner.swift in Sources */,
 				D34036ED1EC01CAC003F0A89 /* PopularSports.swift in Sources */,
+				D3B200DA2A1B3A9D00132B5F /* CollectionViewCellForMovie10.swift in Sources */,
+				D375833E2A1B38A500ED5AEB /* The Good Fife.swift in Sources */,
 				D3B200D22A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift in Sources */,
+				D37583322A1B370A00ED5AEB /* Crime & Mystery.swift in Sources */,
+				D375833A2A1B383C00ED5AEB /* Critically Acclaimed.swift in Sources */,
 				D377FFC02B4290C100695011 /* CollectionViewCell13IplPage1.swift in Sources */,
 				D3B131E84B7208E300772BC0 /* highlightsPage.swift in Sources */,
 				D3D25D7D2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift in Sources */,
@@ -509,15 +595,18 @@
 				D327CA262A157E4C00F53948 /* CollectionViewCellForMovie1.swift in Sources */,
 				D3C357222A0B8338005D1A4B /* CollectionViewCell7IplPage1.swift in Sources */,
 				D3D176BA29EE3AF20003DB01 /* myCollectionViewCellFormatch24.swift in Sources */,
+				D37583382A1B379900ED5AEB /* Reality TV.swift in Sources */,
 				D3D25D6F2A132EFD00CD600F /* Key Tournaments.swift in Sources */,
 				D327CA282A1581FF00F53948 /* CollectionViewCellForMovie2.swift in Sources */,
 				D398A47A29EDCCED007EBE9E /* CollectionViewCell1.swift in Sources */,
+				D3B200DC2A1B3D3500132B5F /* CollectionViewCellForMovie11.swift in Sources */,
 				D3ADCE372A148AC100DF9272 /* CollectionViewCellForExclusives_Ft__GT_Stars.swift in Sources */,
 				D3D25D772A13466100CD600F /* Best Of A Jio Match Center Live.swift in Sources */,
 				D3EC10B640A6FD9B00BB2559 /* CollectionViewCell8IplPage1.swift in Sources */,
 				D37A01B82A03822200146397 /* Popular Web Shows.swift in Sources */,
 				D3ADCE492A1495F700DF9272 /* CollectionViewCellFortata_ipl_2023_top_Moments.swift in Sources */,
 				D35FA0B92A04DEE20061F020 /* CollectionViewCell14.swift in Sources */,
+				D37583302A1B36ED00ED5AEB /* Your Daily Fix.swift in Sources */,
 				D35E8AE72A1732160075CE93 /* CollectionViewCellForMovie4.swift in Sources */,
 				D3ADCE312A14876700DF9272 /* Aakashvani.swift in Sources */,
 				D3820BC42A1244A100D7EDFD /* TATA IPL 2023 Highlights.swift in Sources */,
@@ -525,18 +614,23 @@
 				D306F2ED2A0E1BB600161E83 /* CollectionViewCell14IplPage1.swift in Sources */,
 				D376972129EE35BD00A1C89F /* CollectionViewCellForMatch26.swift in Sources */,
 				D3B11C3A2A09FA3200B56F0D /* CollectionViewCell1IplPage1.swift in Sources */,
+				D37583282A1B315200ED5AEB /* CollectionViewCellForMovie16.swift in Sources */,
 				D35E6F9929F1376E0047AB48 /* CollectionViewCellForPreview.swift in Sources */,
 				D3B131EC4B720FE700772BC0 /* bestOfTataIpl.swift in Sources */,
+				D37583442A1B39CD00ED5AEB /* Top Comedies.swift in Sources */,
+				D37583402A1B38C300ED5AEB /* International Shows in Hindi.swift in Sources */,
 				D3820BCA2A124C8100D7EDFD /* Match 56- Mi vs RCB.swift in Sources */,
 				D306F2F12A0E220800161E83 /* CollectionViewCell16IplPage1.swift in Sources */,
 				D377FFBE2B428A5000695011 /* CollectionViewCell12IplPage1.swift in Sources */,
 				D3B131F24B7222C000772BC0 /* CollectionViewCell9.swift in Sources */,
 				D398A47C29EDD19A007EBE9E /* CollectionViewCell2.swift in Sources */,
+				D375832C2A1B369900ED5AEB /* New & Trending.swift in Sources */,
 				D3B11C3C2A09FFB000B56F0D /* CollectionViewCell2IplPage1.swift in Sources */,
 				D3D25D732A1332CD00CD600F /* TATA IPL 2023 Short Highlights.swift in Sources */,
 				D376971929EE14AF00A1C89F /* CollectionViewCell4.swift in Sources */,
 				D3EB575229FAF84B006499EC /* CollectionViewCellForFreshTvEp.swift in Sources */,
 				D3820BDA2A1255F400D7EDFD /* CollectionViewCellForBest_Of_TATA_IPL_2023.swift in Sources */,
+				D375832A2A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift in Sources */,
 				D3ADCE3F2A148FEF00DF9272 /* Last Over Drama.swift in Sources */,
 				D3820BD42A12535500D7EDFD /* CollectionViewCellForHeroSpeak.swift in Sources */,
 				D35E8AE52A17244C0075CE93 /* CollectionViewCellForMovie3.swift in Sources */,
@@ -548,10 +642,15 @@
 				D3820BCC2A124DF700D7EDFD /* CollectionViewCellForMatch56MivsRCB.swift in Sources */,
 				D340999B2A0CCE370051236E /* CollectionViewCell11IplPage1.swift in Sources */,
 				D37A01B62A03758200146397 /* CollectionViewCell12.swift in Sources */,
+				D37583262A1B2EED00ED5AEB /* CollectionViewCellForMovie15.swift in Sources */,
+				D37583482A1B3B6E00ED5AEB /* CollectionViewCellForNewTrending.swift in Sources */,
 				D3B200D02A1B263800132B5F /* CollectionViewCellForMovie05.swift in Sources */,
+				D37583342A1B373400ED5AEB /* Edgy Thrillers.swift in Sources */,
 				D35FA0BB2A04E8500061F020 /* CollectionViewCell15.swift in Sources */,
 				D3820BD22A1252A200D7EDFD /* HeroSpeak.swift in Sources */,
+				D3B200DE2A1B3F7400132B5F /* CollectionViewCellForMovie12.swift in Sources */,
 				D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */,
+				D37583462A1B39EA00ED5AEB /* Evergreen Soaps.swift in Sources */,
 				D35FA0BF2A04F2890061F020 /* CollectionViewCell17.swift in Sources */,
 				D3ADCE532A149C3400DF9272 /* tata ipl 2023 top Replays.swift in Sources */,
 				D3D25D712A132FCE00CD600F /* CollectionViewCellForKey_Tournaments.swift in Sources */,
@@ -580,11 +679,16 @@
 				D3ADCE412A14902500DF9272 /* CollectionViewCellForLast_Over_Drama.swift in Sources */,
 				D376971F29EE2F1A00A1C89F /* CollectionViewCell5.swift in Sources */,
 				D398A47829EDCBBC007EBE9E /* homepage.swift in Sources */,
+				D375833C2A1B388400ED5AEB /* Horror House.swift in Sources */,
 				D3B131EA4B720A0800772BC0 /* CollectionViewCellForHighlights.swift in Sources */,
 				D34036EF1EC01D72003F0A89 /* CollectionViewCellForPopulerSports.swift in Sources */,
 				D398A47E29EDD477007EBE9E /* CollectionViewCell3.swift in Sources */,
 				D3820BBE2A123C4000D7EDFD /* CollectionViewCell20IplPage1.swift in Sources */,
+				D375832E2A1B36CE00ED5AEB /* Top-Rated Originals.swift in Sources */,
 				D398A46329EDB78F007EBE9E /* SceneDelegate.swift in Sources */,
+				D37583362A1B375200ED5AEB /* Multi-Starrer Entertainment.swift in Sources */,
+				D3B200D82A1B35DE00132B5F /* CollectionViewCellForMovie9.swift in Sources */,
+				D3B200E42A1B45AE00132B5F /* CollectionViewCellForMovie13.swift in Sources */,
 				D3D25D7F2A134FC300CD600F /* Cricketers Getting Candid.swift in Sources */,
 				D3D25D792A1346ED00CD600F /* CollectionViewCellForBest_Of_A_Jio_Match_Center_Live.swift in Sources */,
 				D3ADCE392A148CE900DF9272 /* CollectionViewCellForBest Of Insiders Lens.swift in Sources */,

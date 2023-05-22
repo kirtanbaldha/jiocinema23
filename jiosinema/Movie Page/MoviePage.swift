@@ -11,6 +11,19 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     @IBOutlet weak var collectionView6MoviePage: UICollectionView!
     @IBOutlet weak var collectionView7MoviePage: UICollectionView!
     @IBOutlet weak var collectionView8MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView9MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView10MoviePage: UICollectionView!
+    
+    @IBOutlet weak var language: UICollectionView!
+    
+    @IBOutlet weak var collectionView11MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView12MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView13MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView14MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView15MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView16MoviePage: UICollectionView!
+    @IBOutlet weak var collectionView17MoviePage: UICollectionView!
+    
     
     
     
@@ -24,7 +37,21 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     var arrForMovieCollectionView6 = [1,2]
     var arrForMovieCollectionView7 = [1,2]
     var arrForMovieCollectionView8 = [1,2]
+    var arrForMovieCollectionView9 = [1,2]
+    var arrForMovieCollectionView10 = [1,2]
+    var arrForMovieCollectionView11 = [1,2]
+    var arrForMovieCollectionView12 = [1,2]
+    var arrForlanguage = [1,2]
+    var arrForMovieCollectionView13 = [1,2]
+    var arrForMovieCollectionView14 = [1,2]
+    var arrForMovieCollectionView15 = [1,2]
+    var arrForMovieCollectionView16 = [1,2]
+    var arrForMovieCollectionView17 = [1,2]
 
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,8 +80,38 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
         else if collectionView == self.collectionView7MoviePage{
             return arrForMovieCollectionView7.count
         }
-        else {
+        else if collectionView == self.collectionView8MoviePage{
             return arrForMovieCollectionView8.count
+        }
+        else if collectionView == self.collectionView9MoviePage{
+            return arrForMovieCollectionView9.count
+        }
+        else if collectionView == self.collectionView10MoviePage{
+            return arrForMovieCollectionView10.count
+        }
+        else if collectionView == self.language{
+            return arrForlanguage.count
+        }
+        else if collectionView == self.collectionView11MoviePage{
+            return arrForMovieCollectionView11.count
+        }
+        else if collectionView == self.collectionView12MoviePage{
+            return arrForMovieCollectionView12.count
+        }
+        else if collectionView == self.collectionView13MoviePage{
+            return arrForMovieCollectionView13.count
+        }
+        else if collectionView == self.collectionView14MoviePage{
+            return arrForMovieCollectionView14.count
+        }
+        else if collectionView == self.collectionView15MoviePage{
+            return arrForMovieCollectionView15.count
+        }
+        else if collectionView == self.collectionView16MoviePage{
+            return arrForMovieCollectionView16.count
+        }
+        else {
+            return arrForMovieCollectionView17.count
         }
         
     }
@@ -112,7 +169,7 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             
                     return cellForMovie7
             }
-            else {
+            else if collectionView == self.collectionView8MoviePage{
                 let cellForMovie8 = collectionView8MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie8", for: indexPath) as! CollectionViewCellForMovie8
                 
                 cellForMovie8.imgForMovieCollectionView8.image =
@@ -120,6 +177,88 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             
                     return cellForMovie8
             }
+            else if collectionView == self.collectionView9MoviePage{
+                let cellForMovie9 = collectionView8MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie9", for: indexPath) as! CollectionViewCellForMovie9
+                
+                cellForMovie9.imgForMovieCollectionView9.image =
+                UIImage(named: "\(arrForMovieCollectionView9[indexPath.row])")
+            
+                    return cellForMovie9
+            }
+            else if collectionView == self.collectionView10MoviePage{
+                let cellForMovie10 = collectionView10MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie10", for: indexPath) as! CollectionViewCellForMovie10
+                
+                cellForMovie10.imgForMovieCollectionView10.image =
+                UIImage(named: "\(arrForMovieCollectionView10[indexPath.row])")
+            
+                    return cellForMovie10
+            }
+            else if collectionView == self.collectionView10MoviePage{
+                let cellForLanguage = language.dequeueReusableCell(withReuseIdentifier:  "cellForLanguage", for: indexPath) as! CollectionViewCellForLanguage
+                
+                cellForLanguage.imgForLanguage.image =
+                UIImage(named: "\(arrForlanguage[indexPath.row])")
+            
+                    return cellForLanguage
+            }
+            
+            else if collectionView == self.collectionView11MoviePage{
+                let cellForMovie11 = collectionView11MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie11", for: indexPath) as! CollectionViewCellForMovie11
+                
+                cellForMovie11.imgForMovieCollectionView11.image =
+                UIImage(named: "\(arrForMovieCollectionView11[indexPath.row])")
+            
+                    return cellForMovie11
+            }
+            else if collectionView == self.collectionView12MoviePage{
+                let cellForMovie12 = collectionView12MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie12", for: indexPath) as! CollectionViewCellForMovie12
+                
+                cellForMovie12.imgForMovieCollectionView12.image =
+                UIImage(named: "\(arrForMovieCollectionView12[indexPath.row])")
+            
+                    return cellForMovie12
+            }
+            else if collectionView == self.collectionView13MoviePage{
+                let cellForMovie13 = collectionView13MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie13", for: indexPath) as! CollectionViewCellForMovie13
+                
+                cellForMovie13.imgForMovieCollectionView13.image =
+                UIImage(named: "\(arrForMovieCollectionView13[indexPath.row])")
+            
+                    return cellForMovie13
+            }
+            else if collectionView == self.collectionView14MoviePage{
+                let cellForMovie14 = collectionView14MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie14", for: indexPath) as! CollectionViewCellForMovie14
+                
+                cellForMovie14.imgForMovieCollectionView14.image =
+                UIImage(named: "\(arrForMovieCollectionView14[indexPath.row])")
+            
+                    return cellForMovie14
+            }
+            else if collectionView == self.collectionView15MoviePage{
+                let cellForMovie15 = collectionView15MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie15", for: indexPath) as! CollectionViewCellForMovie15
+                
+                cellForMovie15.imgForMovieCollectionView15.image =
+                UIImage(named: "\(arrForMovieCollectionView15[indexPath.row])")
+            
+                    return cellForMovie15
+            }
+            else if collectionView == self.collectionView16MoviePage{
+                let cellForMovie16 = collectionView16MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie16", for: indexPath) as! CollectionViewCellForMovie16
+                
+                cellForMovie16.imgForMovieCollectionView16.image =
+                UIImage(named: "\(arrForMovieCollectionView16[indexPath.row])")
+            
+                    return cellForMovie16
+            }
+            else {
+                let cellForMovie17 = collectionView17MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie17", for: indexPath) as! CollectionViewCellForMovie17
+                
+                cellForMovie17.imgForMovieCollectionView17.image =
+                UIImage(named: "\(arrForMovieCollectionView17[indexPath.row])")
+            
+                    return cellForMovie17
+            }
+            
         }
             
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -139,6 +278,34 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             return CGSize(width: 128, height: 152)
         }
         else if collectionView == self.collectionView6MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView7MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView8MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else  if collectionView == self.collectionView9MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView10MoviePage{
+            return CGSize(width: 150, height: 180)
+        }
+        else if collectionView == self.language{
+            return CGSize(width: 80, height: 80)
+        }
+        
+        else if collectionView == self.collectionView11MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView12MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView13MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView14MoviePage{
             return CGSize(width: 128, height: 152)
         }
         else {
