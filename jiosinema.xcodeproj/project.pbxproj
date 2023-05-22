@@ -91,6 +91,10 @@
 		D3B131EC4B720FE700772BC0 /* bestOfTataIpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131EB4B720FE700772BC0 /* bestOfTataIpl.swift */; };
 		D3B131F04B72193200772BC0 /* CollectionViewCellForBestIpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131EF4B72193200772BC0 /* CollectionViewCellForBestIpl.swift */; };
 		D3B131F24B7222C000772BC0 /* CollectionViewCell9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B131F14B7222C000772BC0 /* CollectionViewCell9.swift */; };
+		D3B200D02A1B263800132B5F /* CollectionViewCellForMovie05.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200CF2A1B263800132B5F /* CollectionViewCellForMovie05.swift */; };
+		D3B200D22A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D12A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift */; };
+		D3B200D42A1B2E3600132B5F /* CollectionViewCellForMovie7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D32A1B2E3600132B5F /* CollectionViewCellForMovie7.swift */; };
+		D3B200D62A1B30B300132B5F /* CollectionViewCellForMovie8.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */; };
 		D3B292D629F94FE100F8AEE2 /* allLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D529F94FE100F8AEE2 /* allLogo.swift */; };
 		D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */; };
 		D3B2D2612D095FB900B76757 /* CollectionViewCell3IplPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */; };
@@ -204,6 +208,10 @@
 		D3B131EB4B720FE700772BC0 /* bestOfTataIpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bestOfTataIpl.swift; sourceTree = "<group>"; };
 		D3B131EF4B72193200772BC0 /* CollectionViewCellForBestIpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForBestIpl.swift; sourceTree = "<group>"; };
 		D3B131F14B7222C000772BC0 /* CollectionViewCell9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell9.swift; sourceTree = "<group>"; };
+		D3B200CF2A1B263800132B5F /* CollectionViewCellForMovie05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie05.swift; sourceTree = "<group>"; };
+		D3B200D12A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie6.swift; sourceTree = "<group>"; };
+		D3B200D32A1B2E3600132B5F /* CollectionViewCellForMovie7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie7.swift; sourceTree = "<group>"; };
+		D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellForMovie8.swift; sourceTree = "<group>"; };
 		D3B292D529F94FE100F8AEE2 /* allLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allLogo.swift; sourceTree = "<group>"; };
 		D3B292D729F9511000F8AEE2 /* collectionViewForallLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewForallLogo.swift; sourceTree = "<group>"; };
 		D3B2D2602D095FB900B76757 /* CollectionViewCell3IplPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3IplPage1.swift; sourceTree = "<group>"; };
@@ -309,6 +317,7 @@
 				D398A46229EDB78F007EBE9E /* SceneDelegate.swift */,
 				D398A46429EDB78F007EBE9E /* ViewController.swift */,
 				D398A46629EDB78F007EBE9E /* Main.storyboard */,
+				D3B200D52A1B30B300132B5F /* CollectionViewCellForMovie8.swift */,
 				D3B487B82A1575D6002398EF /* Movie Page */,
 				D3B11C342A09E91C00B56F0D /* TATA IPL */,
 				D34036F01EC01FF3003F0A89 /* Home Page */,
@@ -388,7 +397,10 @@
 		D3B487B82A1575D6002398EF /* Movie Page */ = {
 			isa = PBXGroup;
 			children = (
+				D3B200CF2A1B263800132B5F /* CollectionViewCellForMovie05.swift */,
 				D3B487B62A1575C8002398EF /* MoviePage.swift */,
+				D3B200D32A1B2E3600132B5F /* CollectionViewCellForMovie7.swift */,
+				D3B200D12A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift */,
 				D35E8AE62A1732160075CE93 /* CollectionViewCellForMovie4.swift */,
 				D35E8AE42A17244C0075CE93 /* CollectionViewCellForMovie3.swift */,
 				D327CA252A157E4C00F53948 /* CollectionViewCellForMovie1.swift */,
@@ -479,11 +491,14 @@
 				D3ADCE472A14955E00DF9272 /* tata ipl 2023 top Moments.swift in Sources */,
 				D3AFA0142A038C30009814E6 /* CollectionViewCellForPopulerWebShows.swift in Sources */,
 				D3D25D812A13531E00CD600F /* CollectionViewCellForCricketers_Getting_Candid.swift in Sources */,
+				D3B200D42A1B2E3600132B5F /* CollectionViewCellForMovie7.swift in Sources */,
 				D3B292D829F9511000F8AEE2 /* collectionViewForallLogo.swift in Sources */,
 				D3ADCE352A148A1800DF9272 /* Exclusives Ft. GT Stars.swift in Sources */,
 				D398A46529EDB78F007EBE9E /* ViewController.swift in Sources */,
+				D3B200D62A1B30B300132B5F /* CollectionViewCellForMovie8.swift in Sources */,
 				D3820BD02A1250A900D7EDFD /* CollectionViewCellForCaptionCorner.swift in Sources */,
 				D34036ED1EC01CAC003F0A89 /* PopularSports.swift in Sources */,
+				D3B200D22A1B2A4C00132B5F /* CollectionViewCellForMovie6.swift in Sources */,
 				D377FFC02B4290C100695011 /* CollectionViewCell13IplPage1.swift in Sources */,
 				D3B131E84B7208E300772BC0 /* highlightsPage.swift in Sources */,
 				D3D25D7D2A134A8D00CD600F /* CollectionViewCellForExclusives_Ft__Rcb_Stars.swift in Sources */,
@@ -533,6 +548,7 @@
 				D3820BCC2A124DF700D7EDFD /* CollectionViewCellForMatch56MivsRCB.swift in Sources */,
 				D340999B2A0CCE370051236E /* CollectionViewCell11IplPage1.swift in Sources */,
 				D37A01B62A03758200146397 /* CollectionViewCell12.swift in Sources */,
+				D3B200D02A1B263800132B5F /* CollectionViewCellForMovie05.swift in Sources */,
 				D35FA0BB2A04E8500061F020 /* CollectionViewCell15.swift in Sources */,
 				D3820BD22A1252A200D7EDFD /* HeroSpeak.swift in Sources */,
 				D398A46129EDB78F007EBE9E /* AppDelegate.swift in Sources */,
