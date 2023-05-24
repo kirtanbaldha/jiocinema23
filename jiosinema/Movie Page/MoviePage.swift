@@ -11,7 +11,7 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     @IBOutlet weak var collectionView6MoviePage: UICollectionView!
     @IBOutlet weak var collectionView7MoviePage: UICollectionView!
     @IBOutlet weak var collectionView8MoviePage: UICollectionView!
-    @IBOutlet weak var collectionView9MoviePage: UICollectionView!
+   
     @IBOutlet weak var collectionView10MoviePage: UICollectionView!
     
     @IBOutlet weak var language: UICollectionView!
@@ -33,8 +33,8 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     var arrForMovieCollectionView2 = ["vikram","baji","batman-vs-superman--dawn","drishyam","joker","justice-league","rocketry","roohi","the-dark-knight-rises","wonder-woman"]
     var arrForMovieCollectionView3 = ["ajab prem ki ghazab kahani","andhadhun","baji-1","cocktail","drishyam jc creatives","english vingl","gabbar","golmaal 3","housefull","housefull3","kochadaiiyaan","lingaa","love aaj  kal","luka 20chuppi","main hoon surya singham 2","oh my god","r... rajkumar","ramleela","raone","rockstar","singham returns","son of sardaar","special 26","stree","tanu weds manu returns","welcome back"]
     var arrForMovieCollectionView4 = ["fantastic-beasts-the-crimes-of-grindelwald","fb-1-3x4-clean","harry-potter-2-3x4-clean","harry-potter-and-the-goblet-of-fire-3x4","harry-potter-and-the-order-of-the-phoenix","harry-potter-and-the-prisoner-of-azkaban-3x4","harry-potter7-part-2--3x4.jpg-clean","harrypotterandthehalfbloodprince"]
-    var arrForMovieCollectionView5 = [1,2]
-    var arrForMovieCollectionView6 = [1,2]
+    var arrForMovieCollectionView5 = ["bekaboo","naagin","housefull","junooniyat","udaariyan","parshuram","suhagan","saavi-ki-savari","parineetii","dharam-patni","bhagyalakshami","tripura-sundari","punyavathi","lakshmi-baramma"]
+    var arrForMovieCollectionView6 = ["the-bengal-scam","murder-by-the-sea","rykna","indu","fish-and-chips","mahanagar","nishabdh","kaneez","the-hunter","hushhhh","ouac","tomat","kaiser","tandoor","uttaron","dastan-e-love-2","pustak","money-honey-directors-cut","awakening","intution","cartoon","biwi-ho-toh-aisi","pabitra-puppies","tansen-ka-tanpura-s2","me-too","race"]
     var arrForMovieCollectionView7 = [1,2]
     var arrForMovieCollectionView8 = [1,2]
     var arrForMovieCollectionView9 = [1,2]
@@ -83,9 +83,9 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
         else if collectionView == self.collectionView8MoviePage{
             return arrForMovieCollectionView8.count
         }
-        else if collectionView == self.collectionView9MoviePage{
-            return arrForMovieCollectionView9.count
-        }
+//        else if collectionView == self.collectionView9MoviePage{
+//            return arrForMovieCollectionView9.count
+//        }
         else if collectionView == self.collectionView10MoviePage{
             return arrForMovieCollectionView10.count
         }
@@ -177,14 +177,14 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             
                     return cellForMovie8
             }
-            else if collectionView == self.collectionView9MoviePage{
-                let cellForMovie9 = collectionView8MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie9", for: indexPath) as! CollectionViewCellForMovie9
-                
-                cellForMovie9.imgForMovieCollectionView9.image =
-                UIImage(named: "\(arrForMovieCollectionView9[indexPath.row])")
-            
-                    return cellForMovie9
-            }
+//            else if collectionView == self.collectionView9MoviePage{
+//                let cell999 = collectionView8MoviePage.dequeueReusableCell(withReuseIdentifier:  "cell999", for: indexPath) as! CollectionViewCellmovi09
+//
+//                cell999.imgForMovieCollectionViewmovi9.image =
+//                UIImage(named: "\(arrForMovieCollectionView9[indexPath.row])")
+//
+//                    return cell999
+//            }
             else if collectionView == self.collectionView10MoviePage{
                 let cellForMovie10 = collectionView10MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie10", for: indexPath) as! CollectionViewCellForMovie10
                 
@@ -286,9 +286,9 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
         else if collectionView == self.collectionView8MoviePage{
             return CGSize(width: 128, height: 152)
         }
-        else  if collectionView == self.collectionView9MoviePage{
-            return CGSize(width: 128, height: 152)
-        }
+//        else  if collectionView == self.collectionView9MoviePage{
+//            return CGSize(width: 128, height: 152)
+//        }
         else if collectionView == self.collectionView10MoviePage{
             return CGSize(width: 150, height: 180)
         }
