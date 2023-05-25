@@ -34,19 +34,23 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     var arrForMovieCollectionView3 = ["ajab prem ki ghazab kahani","andhadhun","baji-1","cocktail","drishyam jc creatives","english vingl","gabbar","golmaal 3","housefull","housefull3","kochadaiiyaan","lingaa","love aaj  kal","luka 20chuppi","main hoon surya singham 2","oh my god","r... rajkumar","ramleela","raone","rockstar","singham returns","son of sardaar","special 26","stree","tanu weds manu returns","welcome back"]
     var arrForMovieCollectionView4 = ["fantastic-beasts-the-crimes-of-grindelwald","fb-1-3x4-clean","harry-potter-2-3x4-clean","harry-potter-and-the-goblet-of-fire-3x4","harry-potter-and-the-order-of-the-phoenix","harry-potter-and-the-prisoner-of-azkaban-3x4","harry-potter7-part-2--3x4.jpg-clean","harrypotterandthehalfbloodprince"]
     var arrForMovieCollectionView5 = ["bekaboo","naagin","housefull","junooniyat","udaariyan","parshuram","suhagan","saavi-ki-savari","parineetii","dharam-patni","bhagyalakshami","tripura-sundari","punyavathi","lakshmi-baramma"]
-    var arrForMovieCollectionView6 = ["the-bengal-scam","murder-by-the-sea","rykna","indu","fish-and-chips","mahanagar","nishabdh","kaneez","the-hunter","hushhhh","ouac","tomat","kaiser","tandoor","uttaron","dastan-e-love-2","pustak","money-honey-directors-cut","awakening","intution","cartoon","biwi-ho-toh-aisi","pabitra-puppies","tansen-ka-tanpura-s2","me-too","race"]
-    var arrForMovieCollectionView7 = [1,2]
-    var arrForMovieCollectionView8 = [1,2]
-    var arrForMovieCollectionView9 = [1,2]
-    var arrForMovieCollectionView10 = [1,2]
+    var arrForMovieCollectionView6 =  ["candy","drishyam","ouac","asur","shor_in_the_city","lsd","code-m","the-stoneman-murders","london-files","marzi","the-gone-game","tandoor","paper","cell-no-145","paap-1","mohmaya-2","tomat-3","taranath-tantrik","taqdeer","six","the-nightwatchman","dastan-e-love-2","salon-de-paris","tansen-ka-tanpura-s2","mahanagar","dark-web","the-bengal-scam","the-hunter","pabitra-puppies","rykna"]
+    var arrForMovieCollectionView7 = ["nh_2010","asur","andhadhun","generation-wolf-ivy-3x4-guideline","vikramvedha","rosh","apharan-s02","the-raikar-case","twisted-tales","faceless","candy","the-gone-game-s02","london-files","the-undertaker-(hindi-dubbed)","badlapur","inspector-avinash","drishyam","unkahee","under-the-black-moonlight"]
+    var arrForMovieCollectionView8 = ["players","vikramvedha","golmaal","go-goa-gone","pyaar_ka_punchnama","housefull3","de-dana-dan","desi_boyz","omkar","welcome_back","sarkar","omjayjagadish","shootout","housefull"]
+    var arrForMovieCollectionView9 = ["jdj","tkks","kkk","roadies","hustle","splitsvilla","ex-or-next","bigg-boss","bigg-buzz","hunarbaaz","bbk-ott","bb-ott","bbk-mini-season","tbp"]
+    var arrForMovieCollectionView10 =  ["rocketry","no-smoking","bose-top-10-hot-picks","aligarh","asur","andhadhun","lootera","omkara","ramprasad_ki_tehrvi","bmtd","hpn","bhoot-returns","saajan","devdas","nil_battey_sannata"]
     var arrForMovieCollectionView11 = [1,2]
     var arrForMovieCollectionView12 = [1,2]
-    var arrForlanguage = [1,2]
+    var arrForlanguage =
+    
+    ["bengali","bhojpuri","gujrati","hindi","kannada","malayalam","marathi","punjabi","tamil","telugu"]
+    
+    
     var arrForMovieCollectionView13 = [1,2]
     var arrForMovieCollectionView14 = [1,2]
     var arrForMovieCollectionView15 = [1,2]
     var arrForMovieCollectionView16 = [1,2]
-    var arrForMovieCollectionView17 = [1,2]
+    var arrForMovieCollectionView17 = ["v01","v02","v03"]
 
     
     

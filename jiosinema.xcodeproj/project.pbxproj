@@ -322,7 +322,10 @@
 				D38821602A1D9539008C7362 /* MoviePage.swift */,
 				D388217B2A1D9711008C7362 /* CollectionViewCellForMovie15.swift */,
 				D38821792A1D96BB008C7362 /* CollectionViewCellForMovie14.swift */,
+				D37583292A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift */,
+				D37583272A1B315200ED5AEB /* CollectionViewCellForMovie16.swift */,
 				D38821772A1D965A008C7362 /* CollectionViewCellForMovie13.swift */,
+				D388217D2A1D9F10008C7362 /* CollectionViewCellmovi09.swift */,
 				D38821752A1D961C008C7362 /* CollectionViewCellForMovie12.swift */,
 				D38821732A1D95DA008C7362 /* CollectionViewCellForLanguage.swift */,
 				D388215B2A1D9539008C7362 /* CollectionViewCellForMovie10.swift */,
@@ -343,9 +346,6 @@
 		D398A45429EDB78F007EBE9E = {
 			isa = PBXGroup;
 			children = (
-				D388217D2A1D9F10008C7362 /* CollectionViewCellmovi09.swift */,
-				D37583292A1B337F00ED5AEB /* CollectionViewCellForMovie17.swift */,
-				D37583272A1B315200ED5AEB /* CollectionViewCellForMovie16.swift */,
 				D398A45F29EDB78F007EBE9E /* jiosinema */,
 				D398A45E29EDB78F007EBE9E /* Products */,
 			);
