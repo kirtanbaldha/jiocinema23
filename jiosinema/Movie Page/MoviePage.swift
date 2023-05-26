@@ -22,8 +22,7 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     @IBOutlet weak var collectionView14MoviePage: UICollectionView!
     @IBOutlet weak var collectionView15MoviePage: UICollectionView!
     @IBOutlet weak var collectionView16MoviePage: UICollectionView!
-    @IBOutlet weak var collectionView17MoviePage: UICollectionView!
-    
+  
     
     
     
@@ -39,18 +38,24 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
     var arrForMovieCollectionView8 = ["players","vikramvedha","golmaal","go-goa-gone","pyaar_ka_punchnama","housefull3","de-dana-dan","desi_boyz","omkar","welcome_back","sarkar","omjayjagadish","shootout","housefull"]
     var arrForMovieCollectionView9 = ["jdj","tkks","kkk","roadies","hustle","splitsvilla","ex-or-next","bigg-boss","bigg-buzz","hunarbaaz","bbk-ott","bb-ott","bbk-mini-season","tbp"]
     var arrForMovieCollectionView10 =  ["rocketry","no-smoking","bose-top-10-hot-picks","aligarh","asur","andhadhun","lootera","omkara","ramprasad_ki_tehrvi","bmtd","hpn","bhoot-returns","saajan","devdas","nil_battey_sannata"]
-    var arrForMovieCollectionView11 = [1,2]
-    var arrForMovieCollectionView12 = [1,2]
+    var arrForMovieCollectionView11 = ["bhoot-returns","stree","roohi","ragini_mms","the-terror-of-hallow's-eve-ivy","scourge","hushhhh-2","nun","taranath-tantrik","robert in gujarati","ragini-mms-returns-ivy","krishna_cottage","the-signal","ouija","cartoon"]
+    var arrForMovieCollectionView12 =  [1,2]
+    
+    
+    
+//    ["band-baja-bride","bl","get-the-look","highway-on-my-plate","kingfisher-calender-girl","kingfisher-supermodels","yarri-dostii-shaadi"]
     var arrForlanguage =
     
     ["bengali","bhojpuri","gujrati","hindi","kannada","malayalam","marathi","punjabi","tamil","telugu"]
     
     
-    var arrForMovieCollectionView13 = [1,2]
-    var arrForMovieCollectionView14 = [1,2]
-    var arrForMovieCollectionView15 = [1,2]
-    var arrForMovieCollectionView16 = [1,2]
-    var arrForMovieCollectionView17 = ["v01","v02","v03"]
+    var arrForMovieCollectionView13 = ["goblin","extra-ordinary-you","melting-heart","la-teteniente","flower-of-evil","i-m-not-a-robot","kairos","prison-playbook","kill-me-heal-me","save-me-2","two-cops","the-game-towards-zero","el-caso","traicion","undercover","rich-man","el-continental-2","ten","drowning-city","1-of-something","bride-of-the-century-(hindi-dubbed)","mysterious-nurse-(hindi-dubbed)","my-little-baby-(hindi-dubbed)","that-man-oh-soo-(hindi-dubbed)","28-moons-(hindi-dubbed)","dream-change-laundromat-(hindi-dubbed)","what-in-the-world-happened--(hindi-dubbed)","under-the-black-moonlight","its-ok-mom-(hindi-dubbed)","its-ok-dad-(hindi-dubbed)"]
+    var arrForMovieCollectionView14 =  ["parshuram","shani-3x4-hindi","mahakaali-3x4-hindi","ram-sita-r-luv-kush","jai-shri-krishna","shrimad-bhagwat-mahapuraan"]
+    var arrForMovieCollectionView15 = ["vicky","tanu-weds-manu-returns","de-dana-dan","dekh-tamasha-dekh","partener","sugarless","hpn","munnes","sarkari_karyalay","comedy-nights-with-kapil-ivy","mr-das","hum-saaf-saaf-hai-batch-7","metro-park","happy-firse-bhag-jayegi","kkkk","happy-ending","housefull","luka_chuppi","happy-bhag-jaegi","money-hai-toh-honey-hai","desi_boyz"]
+    var arrForMovieCollectionView16 =  ["kasam-tere-pyaar-ki","swaragini","chakravartin-ashoka-samrat","dil-se-dil-tak","kuch_toh_hai","barrister-babu","veer-shivaji","choti-sarrdaarni","madhubala","beintehaa","udaan","jhansi-rani","mahavir-hanuman","rangrasiya"]
+    
+    
+    
 
     
     
@@ -111,12 +116,10 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
         else if collectionView == self.collectionView15MoviePage{
             return arrForMovieCollectionView15.count
         }
-        else if collectionView == self.collectionView16MoviePage{
+        else {
             return arrForMovieCollectionView16.count
         }
-        else {
-            return arrForMovieCollectionView17.count
-        }
+        
         
     }
     
@@ -246,7 +249,7 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             
                     return cellForMovie15
             }
-            else if collectionView == self.collectionView16MoviePage{
+            else {
                 let cellForMovie16 = collectionView16MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie16", for: indexPath) as! CollectionViewCellForMovie16
                 
                 cellForMovie16.imgForMovieCollectionView16.image =
@@ -254,14 +257,7 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             
                     return cellForMovie16
             }
-            else {
-                let cellForMovie17 = collectionView17MoviePage.dequeueReusableCell(withReuseIdentifier:  "cellForMovie17", for: indexPath) as! CollectionViewCellForMovie17
-                
-                cellForMovie17.imgForMovieCollectionView17.image =
-                UIImage(named: "\(arrForMovieCollectionView17[indexPath.row])")
             
-                    return cellForMovie17
-            }
             
         }
             
@@ -310,6 +306,9 @@ class MoviePage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
             return CGSize(width: 128, height: 152)
         }
         else if collectionView == self.collectionView14MoviePage{
+            return CGSize(width: 128, height: 152)
+        }
+        else if collectionView == self.collectionView15MoviePage{
             return CGSize(width: 128, height: 152)
         }
         else {

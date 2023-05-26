@@ -4986,7 +4986,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6w9-Qw-SzC">
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6w9-Qw-SzC">
                                                 <rect key="frame" x="0.0" y="2168" width="390" height="79"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -5004,7 +5004,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WBt-PN-yYd">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WBt-PN-yYd">
                                                                     <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 </imageView>
@@ -5209,47 +5209,6 @@
                                                     <outlet property="delegate" destination="Uhk-Mu-wbN" id="kpf-zz-3Uc"/>
                                                 </connections>
                                             </collectionView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Watch In Your Language" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9LQ-MN-WyA">
-                                                <rect key="frame" x="8" y="3394" width="197" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hY4-DF-XIr">
-                                                <rect key="frame" x="0.0" y="3423" width="388" height="151"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uWj-W2-HVp">
-                                                    <size key="itemSize" width="128" height="152"/>
-                                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                </collectionViewFlowLayout>
-                                                <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CollectionViewCellForMovie17" reuseIdentifier="cellForMovie17" id="AhZ-vA-iv4" customClass="CollectionViewCellForMovie17" customModule="jiosinema" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="-0.66666666666666663" width="128" height="152"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EDT-M5-9DG">
-                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
-                                                            <autoresizingMask key="autoresizingMask"/>
-                                                            <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RaE-Gp-nxt">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="152"/>
-                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                </imageView>
-                                                            </subviews>
-                                                        </collectionViewCellContentView>
-                                                        <connections>
-                                                            <outlet property="imgForMovieCollectionView17" destination="RaE-Gp-nxt" id="lNQ-zl-yaX"/>
-                                                        </connections>
-                                                    </collectionViewCell>
-                                                </cells>
-                                                <connections>
-                                                    <outlet property="dataSource" destination="Uhk-Mu-wbN" id="LyA-DG-qQA"/>
-                                                    <outlet property="delegate" destination="Uhk-Mu-wbN" id="i9W-SM-51Z"/>
-                                                </connections>
-                                            </collectionView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mvD-9w-uz6">
                                                 <rect key="frame" x="339" y="490" width="35" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -5323,7 +5282,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="3592" id="RyB-N0-uuF"/>
+                                            <constraint firstAttribute="height" constant="3400" id="RyB-N0-uuF"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -5356,7 +5315,6 @@
                         <outlet property="collectionView14MoviePage" destination="TR6-MS-SVH" id="GJ6-NR-DSr"/>
                         <outlet property="collectionView15MoviePage" destination="LOa-Oq-kTN" id="guh-on-kuP"/>
                         <outlet property="collectionView16MoviePage" destination="wEH-aO-oMG" id="YvT-1d-FdP"/>
-                        <outlet property="collectionView17MoviePage" destination="hY4-DF-XIr" id="ayE-ye-HCZ"/>
                         <outlet property="collectionView1MoviePage" destination="4la-tM-TUd" id="Wgs-0r-iEp"/>
                         <outlet property="collectionView2MoviePage" destination="h8b-oz-FbH" id="xyx-fS-8bf"/>
                         <outlet property="collectionView3MoviePage" destination="1q9-i4-FHS" id="hA2-a7-VqF"/>
@@ -5370,7 +5328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gNS-Vz-ADu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3800" y="178"/>
+            <point key="canvasLocation" x="-3831" y="203"/>
         </scene>
         <!--New Trending-->
         <scene sceneID="J34-1E-Guq">
@@ -5438,7 +5396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qN7-fQ-bgC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3160" y="178"/>
+            <point key="canvasLocation" x="-3182" y="203"/>
         </scene>
         <!--Crime Mystery-->
         <scene sceneID="c7x-Uj-pvc">
@@ -5642,7 +5600,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYr-9o-xf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2520" y="178"/>
+            <point key="canvasLocation" x="-2518" y="203"/>
         </scene>
         <!--Edgy Thrillers-->
         <scene sceneID="JWJ-CS-eGG">
